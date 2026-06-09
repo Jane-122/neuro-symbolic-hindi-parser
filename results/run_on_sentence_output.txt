@@ -1,0 +1,406 @@
+Loaded 5 sentences from hi_hdtb-ud-train.conllu
+============================================================
+--- train-s1 ---
+Sentence: यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।
+
+  Token:      यह
+  Deprel:     det
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      एशिया
+  Deprel:     nmod
+  Case:       की
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      की
+  Deprel:     case
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      सबसे
+  Deprel:     advmod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      बड़ी
+  Deprel:     amod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      मस्जिदों
+  Deprel:     nmod
+  Case:       में
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      में
+  Deprel:     case
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      से
+  Deprel:     case
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      एक
+  Deprel:     root
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      है
+  Deprel:     cop
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      ।
+  Deprel:     punct
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+============================================================
+--- train-s2 ---
+Sentence: इसे नवाब शाहजेहन ने बनवाया था ।
+
+  Token:      इसे
+  Deprel:     obj
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      नवाब
+  Deprel:     compound
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      शाहजेहन
+  Deprel:     nsubj
+  Case:       ने
+  Rule:       R1
+  Decision:   confirmed
+  Confidence: high
+  Karakas:    ['Kartā']
+
+  Token:      ने
+  Deprel:     case
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      बनवाया
+  Deprel:     root
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      था
+  Deprel:     aux
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      ।
+  Deprel:     punct
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+============================================================
+--- train-s3 ---
+Sentence: इसका प्रवेश द्वार दो मंजिला है ।
+
+  Token:      इसका
+  Deprel:     nmod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      प्रवेश
+  Deprel:     compound
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      द्वार
+  Deprel:     nsubj
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      दो
+  Deprel:     nummod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      मंजिला
+  Deprel:     root
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      है
+  Deprel:     cop
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      ।
+  Deprel:     punct
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+============================================================
+--- train-s4 ---
+Sentence: जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।
+
+  Token:      जिसमें
+  Deprel:     nmod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      चार
+  Deprel:     nummod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      मेहराबें
+  Deprel:     root
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      हैं
+  Deprel:     cop
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      और
+  Deprel:     cc
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      मुख्य
+  Deprel:     amod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      प्रार्थना
+  Deprel:     compound
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      हॉल
+  Deprel:     obl
+  Case:       में
+  Rule:       R2
+  Decision:   confirmed
+  Confidence: medium-high
+  Karakas:    ['Adhikaraṇa']
+
+  Token:      में
+  Deprel:     case
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      जाने
+  Deprel:     advcl
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      के
+  Deprel:     mark
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      लिए
+  Deprel:     mark
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      9
+  Deprel:     nummod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      प्रवेश
+  Deprel:     compound
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      द्वार
+  Deprel:     nsubj
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      हैं
+  Deprel:     conj
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      ।
+  Deprel:     punct
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+============================================================
+--- train-s5 ---
+Sentence: पूरी इमारत बेहद खूबसूरत है ।
+
+  Token:      पूरी
+  Deprel:     amod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      इमारत
+  Deprel:     nsubj
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      बेहद
+  Deprel:     advmod
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      खूबसूरत
+  Deprel:     root
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      है
+  Deprel:     cop
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+  Token:      ।
+  Deprel:     punct
+  Case:       -
+  Rule:       -
+  Decision:   no_decision
+  Confidence: none
+  Karakas:    []
+
+============================================================

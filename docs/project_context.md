@@ -41,7 +41,7 @@ Can Paninian Karaka-based symbolic rules be used to verify or correct the output
 
 This project should **not** become only a UD-to-Karaka mapping project.
 
-The main contribution is a **Paninian rule-based verifier and corrector** operating over UD dependency outputs. The verifier inspects syntactic analyses, applies symbolic evidence, and returns structured decisions — including cases where no confident Karaka assignment is possible.
+The main contribution is a **Paninian rule-based verifier and corrector** operating over UD dependency outputs. The verifier inspects syntactic analyses, applies symbolic evidence, and returns structured decisions, including cases where no confident Karaka assignment is possible.
 
 The UD-to-Karaka mapping (`docs/ud_to_karaka_mapping_v1.md`) is a **starting hypothesis only**. It supplies default guesses for the verifier to test, confirm, correct, or reject. Mapping alone is not the research output.
 
@@ -281,6 +281,22 @@ Important experiments should record:
 5. Evaluation results (including ambiguous and no-decision cases).
 6. Error analysis.
 7. Final report and presentation.
+
+---
+
+## Documentation Style Rules
+
+The following conventions apply to project documentation, notes, reports, markdown files, README files, prompts, and research summaries:
+
+1. Do not use em dashes.
+2. Do not use double-hyphen stylistic breaks.
+3. Prefer normal sentence structure.
+4. Use commas, parentheses, colons, semicolons, or separate sentences instead.
+5. Keep writing academic, professional, and natural.
+6. Avoid AI-style phrasing and overly dramatic transitions.
+7. Keep explanations clear, direct, and concise.
+8. When documenting research findings, distinguish clearly between observations, hypotheses, conclusions, and future work.
+9. Do not overstate results. Use cautious scientific language when appropriate.
 
 ---
 

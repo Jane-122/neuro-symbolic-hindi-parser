@@ -1,0 +1,780 @@
+sent_id,sentence_text,token_form,deprel,case_marker,rule_id,decision_type,confidence,karaka_candidates,reason
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,यह,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,एशिया,nmod,की,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='की'.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,की,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,सबसे,advmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,बड़ी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,मस्जिदों,nmod,में,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='में'.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,एक,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s1,यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s2,इसे नवाब शाहजेहन ने बनवाया था ।,इसे,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s2,इसे नवाब शाहजेहन ने बनवाया था ।,नवाब,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s2,इसे नवाब शाहजेहन ने बनवाया था ।,शाहजेहन,nsubj,ने,R1,confirmed,high,Kartā,nsubj with ने postposition — strong agent/subject evidence for Kartā.
+train-s2,इसे नवाब शाहजेहन ने बनवाया था ।,ने,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s2,इसे नवाब शाहजेहन ने बनवाया था ।,बनवाया,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s2,इसे नवाब शाहजेहन ने बनवाया था ।,था,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s2,इसे नवाब शाहजेहन ने बनवाया था ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s3,इसका प्रवेश द्वार दो मंजिला है ।,इसका,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s3,इसका प्रवेश द्वार दो मंजिला है ।,प्रवेश,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s3,इसका प्रवेश द्वार दो मंजिला है ।,द्वार,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s3,इसका प्रवेश द्वार दो मंजिला है ।,दो,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s3,इसका प्रवेश द्वार दो मंजिला है ।,मंजिला,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s3,इसका प्रवेश द्वार दो मंजिला है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s3,इसका प्रवेश द्वार दो मंजिला है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,जिसमें,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,चार,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,मेहराबें,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,हैं,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,मुख्य,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,प्रार्थना,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,हॉल,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,जाने,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,के,mark,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,लिए,mark,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,9,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,प्रवेश,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,द्वार,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,हैं,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s4,जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s5,पूरी इमारत बेहद खूबसूरत है ।,पूरी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s5,पूरी इमारत बेहद खूबसूरत है ।,इमारत,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s5,पूरी इमारत बेहद खूबसूरत है ।,बेहद,advmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s5,पूरी इमारत बेहद खूबसूरत है ।,खूबसूरत,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s5,पूरी इमारत बेहद खूबसूरत है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s5,पूरी इमारत बेहद खूबसूरत है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,यहाँ,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,लगने,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,वाला,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,तीन,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,दिन,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,इज्तिमा,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,पूरे,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,देश,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,लोगों,obj,को,R5,ambiguous,low-medium,Karma|Sampradāna,obj/iobj with को postposition — patient (Karma) or recipient (Sampradāna); cannot disambiguate in v1.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,आमंत्रित,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,करता,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s6,यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,शौकत,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,महल,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,सामने,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,बड़ी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,झील,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,किनारे,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,स्थित,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,वास्तुकला,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,यह,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,खूबसूरत,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,नमूना,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,कुदसिया,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,बेगम,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,काल,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,जिन्हें,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,गोहर,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,बेगम,acl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,कहा,acl:relcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,जाता,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,था,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s7,शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,हिंदू,dislocated,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,मुगल,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,कला,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,अद्भुत,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,संगम,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s8,यह हिंदू और मुगल कला का अद्भुत संगम है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s9,यह भारत की अनूठी राष्ट्रीय संस्था है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s9,यह भारत की अनूठी राष्ट्रीय संस्था है ।,भारत,nmod,की,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='की'.
+train-s9,यह भारत की अनूठी राष्ट्रीय संस्था है ।,की,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s9,यह भारत की अनूठी राष्ट्रीय संस्था है ।,अनूठी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s9,यह भारत की अनूठी राष्ट्रीय संस्था है ।,राष्ट्रीय,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s9,यह भारत की अनूठी राष्ट्रीय संस्था है ।,संस्था,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s9,यह भारत की अनूठी राष्ट्रीय संस्था है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s9,यह भारत की अनूठी राष्ट्रीय संस्था है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,मुख्य,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,रूप,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,प्रदर्शन,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,कला,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,दृश्य,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,कला,conj,का,,no_decision,none,,No v1 rule applies for deprel='conj' with case_marker='का'.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,केंद्र,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s10,मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s11,इसे चार्ल्स कोरिया ने डिजाइन किया है ।,इसे,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s11,इसे चार्ल्स कोरिया ने डिजाइन किया है ।,चार्ल्स,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s11,इसे चार्ल्स कोरिया ने डिजाइन किया है ।,कोरिया,nsubj,ने,R1,confirmed,high,Kartā,nsubj with ने postposition — strong agent/subject evidence for Kartā.
+train-s11,इसे चार्ल्स कोरिया ने डिजाइन किया है ।,ने,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s11,इसे चार्ल्स कोरिया ने डिजाइन किया है ।,डिजाइन,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s11,इसे चार्ल्स कोरिया ने डिजाइन किया है ।,किया,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s11,इसे चार्ल्स कोरिया ने डिजाइन किया है ।,है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s11,इसे चार्ल्स कोरिया ने डिजाइन किया है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,विशाल,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,क्षेत्र,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,फैले,acl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,इस,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,भवन,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,आस,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,-,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,पास,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,प्राकृतिक,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,सौंदर्य,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,इसे,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,और,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,भव्य,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,बनाता,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s12,विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",यहीं,nmod,पर,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='पर'.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",पर,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",कला,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",संग्रहालय,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",कला,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",दीर्घा,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",फाइन,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",आर्ट,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",लिए,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",कार्यशाला,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",थिएटर,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",अंतरंग,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",बहिरंग,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",ऑडिटोरियम,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",रिहर्सल,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",कक्ष,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",भारतीय,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",कविताओं,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",पुस्तकालय,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",शास्त्रीय,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",लोक,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",संगीत,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",संग्रहालय,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",हैं,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s13,"यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,सोमवार,obl,के,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='के'.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,अलावा,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,पूरे,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,सप्ताह,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,दोपहर,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,2,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,बजे,nmod,से,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='से'.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,रात,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,8,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,बजे,obl,तक,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='तक'.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,तक,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,खुला,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,रहता,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s14,यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,अनूठा,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,संग्रहालय,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,जो,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,200,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,एकड़,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,श्यामला,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,हिल्स,obl,पर,R3,confirmed,medium-high,Adhikaraṇa,obl with पर postposition — surface/location pattern for Adhikaraṇa.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,पर,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,बड़ी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,झील,obl,के,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='के'.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,सामने,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,फैला,acl:relcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s15,यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,प्रागैतिहासिक,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,स्थल,root,पर,,no_decision,none,,No v1 rule applies for deprel='root' with case_marker='पर'.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,पर,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,विश्व,nmod,में,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='में'.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,अपनी,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,तरह,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,ही,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,संग्रहालय,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,जो,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,प्रागैतिहासिक,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,चित्रकला,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,सज्जित,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,गुफाओं,acl:relcl,के,,no_decision,none,,No v1 rule applies for deprel='acl:relcl' with case_marker='के'.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,समीप,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s16,यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,इस,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,तरह,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,वस्तुओं,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,परंपराओं,conj,से,,no_decision,none,,No v1 rule applies for deprel='conj' with case_marker='से'.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,जीवंत,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,रूप,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,जुड़ा,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,हुआ,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s17,और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",यहाँ,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",आदिवासी,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",समुद्र,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",किनारे,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",रेगिस्तान,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",हिमालय,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",आवासों,conj,के,,no_decision,none,,No v1 rule applies for deprel='conj' with case_marker='के'.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",नमूने,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",बनाए,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",गए,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",हैं,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s18,"यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",यहाँ,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",संग्रहालय,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",पुस्तकालय,obj,को,R5,ambiguous,low-medium,Karma|Sampradāna,obj/iobj with को postposition — patient (Karma) or recipient (Sampradāna); cannot disambiguate in v1.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",दृश्य,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",-,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",श्रृव्य,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",आर्काइव,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",कंप्यूटरीकृत,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",कक्ष,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",व,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",प्रजातीय,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",नमूनों,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",देखा,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",जाता,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s19,"यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,यहाँ,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,मध्य,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,प्रदेश,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,विभिन्न,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,हिस्सों,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,कला,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,खूबसूरत,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,नमूने,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,एकत्रित,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,करके,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,रखे,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,गए,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,हैं,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s20,यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s21,संग्रहालय सोमवार को बंद रहता है ।,संग्रहालय,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s21,संग्रहालय सोमवार को बंद रहता है ।,सोमवार,obl,को,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='को'.
+train-s21,संग्रहालय सोमवार को बंद रहता है ।,को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s21,संग्रहालय सोमवार को बंद रहता है ।,बंद,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s21,संग्रहालय सोमवार को बंद रहता है ।,रहता,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s21,संग्रहालय सोमवार को बंद रहता है ।,है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s21,संग्रहालय सोमवार को बंद रहता है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s22,यह अरेरा हिल्स पर स्थित है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s22,यह अरेरा हिल्स पर स्थित है ।,अरेरा,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s22,यह अरेरा हिल्स पर स्थित है ।,हिल्स,nmod,पर,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='पर'.
+train-s22,यह अरेरा हिल्स पर स्थित है ।,पर,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s22,यह अरेरा हिल्स पर स्थित है ।,स्थित,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s22,यह अरेरा हिल्स पर स्थित है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s22,यह अरेरा हिल्स पर स्थित है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",इससे,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",लगा,acl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",हुआ,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",संग्रहालय,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",जहाँ,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",मध्यप्रदेश,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",रायसेन,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",सीहोर,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",मंदसौर,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",शहडोल,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",जिलों,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",एकत्रित,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",कला,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",नमूनों,obj,को,R5,ambiguous,low-medium,Karma|Sampradāna,obj/iobj with को postposition — patient (Karma) or recipient (Sampradāna); cannot disambiguate in v1.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",रखा,acl:relcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",गया,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s23,"इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,यह,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,संग्रहालय,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,सोमवार,obl,को,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='को'.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,छोड़कर,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,पूरे,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,सप्ताह,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,9,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,बजे,nmod,से,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='से'.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,5,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,बजे,obl,तक,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='तक'.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,तक,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,खुला,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,रहता,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s24,यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,बड़ी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,झील,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,लगी,acl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,पहाड़ी,nmod,पर,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='पर'.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,पर,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,यह,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,सफारी,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,उद्यान,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,स्थित,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s25,बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s26,यह 445 हैक्टेयर में फैला है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s26,यह 445 हैक्टेयर में फैला है ।,445,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s26,यह 445 हैक्टेयर में फैला है ।,हैक्टेयर,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s26,यह 445 हैक्टेयर में फैला है ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s26,यह 445 हैक्टेयर में फैला है ।,फैला,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s26,यह 445 हैक्टेयर में फैला है ।,है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s26,यह 445 हैक्टेयर में फैला है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,प्राकृतिक,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,सुंदरता,obl,के,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='के'.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,बीच,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,आप,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,विभिन्न,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,प्रकार,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,शाकाहारी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,माँसाहारी,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,प्राणियों,obj,को,R5,ambiguous,low-medium,Karma|Sampradāna,obj/iobj with को postposition — patient (Karma) or recipient (Sampradāna); cannot disambiguate in v1.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,देखने,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,का,mark,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,आनंद,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,उठा,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,सकते,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,हैं,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s27,प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,मंगलवार,obl,को,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='को'.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,छोड़कर,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,हर,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,दिन,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,सुबह,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,7,nmod,से,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='से'.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,11,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,3,nmod,से,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='से'.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,5,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,बजे,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,शाम,conj,तक,,no_decision,none,,No v1 rule applies for deprel='conj' with case_marker='तक'.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,तक,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,खुला,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,रहता,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s28,यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,मूल,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,रूप,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,विज्ञान,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,संग्रहालय,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,जो,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,श्यामला,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,हिल्स,nmod,की,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='की'.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,की,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,खूबसूरती,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,बीच,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,स्थित,acl:relcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s29,यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,यहाँ,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,इन्वेंशन,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,फन,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,साइंस,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,गैलरी,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,हैं,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,तारामंडल,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,नाम,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,प्लेनेटेरियम,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s30,यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,यह,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,सोमवार,obl,को,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='को'.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,छोड़कर,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,हर,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,दिन,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,सुबह,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,10.30,nmod,से,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='से'.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,6.30,obl,तक,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='तक'.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,तक,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,खुला,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,रहता,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s31,यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",शहर,obl,के,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='के'.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",बीच,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",स्थित,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",चौक,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",पुरानी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",मस्जिद,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",हवेलियाँ,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",अतीत,nmod,की,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='की'.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",की,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",स्मृति,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",दिलाते,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",हैं,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s32,"शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,सँकरी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,गलियों,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,स्थित,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,दुकानें,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,हैं,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,जिनमें,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,शिल्प,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,खजाने,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,खुले,acl:relcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,हुए,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,हैं,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s33,सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",यहाँ,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",आप,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",चाँदी,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",आभूषण,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",बीडवर्क,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",कढ़ाई,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",काम,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",सीक्वन,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",काम,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",खूबसूरत,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",अंदाज,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",देख,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",खरीद,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",सकते,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",हैं,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s34,"यहाँ आप चाँदी के आभूषण, बीडवर्क, कढ़ाई का काम और सीक्वन का काम खूबसूरत अंदाज में देख और खरीद सकते हैं ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,बड़ी,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,झील,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,छोटी,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,झील,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,ओवरब्रिज,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,अलग,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,होती,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s35,बड़ी झील छोटी झील से एक ओवरब्रिज से अलग होती है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,म.प्र.,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,पर्यटन,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,बोट,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,क्लब,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,बड़ी,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,झील,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,नौकायन,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,करवाता,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s36,म.प्र. पर्यटन बोट क्लब बड़ी झील में नौकायन भी करवाता है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,छोटी,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,झील,nmod,में,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='में'.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,मछली,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,आकार,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,एक्वेरियम,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s37,छोटी झील में एक मछली के आकार का एक्वेरियम है ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s38,कैसे पहुँचे?,कैसे,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s38,कैसे पहुँचे?,पहुँचे,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s38,कैसे पहुँचे?,?,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",दिल्ली,nmod,से,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='से'.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",ग्वालियर,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",इंदौर,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",मुंबई,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",भोपाल,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",लिए,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",नियमित,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",विमान,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",सेवा,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s39,"दिल्ली ग्वालियर, इंदौर और मुंबई से भोपाल के लिए नियमित विमान सेवा है ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",भोपाल,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",दिल्ली,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",-,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",मद्रास,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",मेन,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",लाइन,root,पर,,no_decision,none,,No v1 rule applies for deprel='root' with case_marker='पर'.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",पर,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",है,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s40,"भोपाल, दिल्ली - मद्रास मेन लाइन पर है ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,मुंबई,obl,से,R4,ambiguous,low-medium,Karaṇa|Apādāna,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,इटारसी,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,झाँसी,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,रास्ते,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,दिल्ली,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,जाने,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,वाली,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,मुख्य,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,गाड़ियाँ,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,भोपाल,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,होकर,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,जाती,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,हैं,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s41,मुंबई से इटारसी और झाँसी के रास्ते दिल्ली जाने वाली मुख्य गाड़ियाँ भोपाल होकर जाती हैं ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",भोपाल,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",तथा,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",इंदौर,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",मांडू,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",उज्जैन,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",खजुराहो,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",पचमढ़ी,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",ग्वालियर,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",साँची,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",जबलपुर,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",शिवपुरी,conj,के,,no_decision,none,,No v1 rule applies for deprel='conj' with case_marker='के'.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",बीच,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",नियमित,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",बस,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",सेवाएँ,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",हैं,cop,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s42,"भोपाल तथा इंदौर, मांडू, उज्जैन, खजुराहो, पचमढ़ी, ग्वालियर, साँची, जबलपुर और शिवपुरी के बीच नियमित बस सेवाएँ हैं ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,ठहरने,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,के,mark,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,लिए,mark,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,-,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,मध्यप्रदेश,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,पर्यटन,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,विकास,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,निगम,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,होटल,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,तथा,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,निजी,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,होटल,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,हैं,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s43,ठहरने के लिए - मध्यप्रदेश पर्यटन विकास निगम के होटल तथा निजी होटल हैं ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s44,कब जाएँ?,कब,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s44,कब जाएँ?,जाएँ,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s44,कब जाएँ?,?,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,वर्ष,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,कभी,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,आप,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,यहाँ,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,जा,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,सकते,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,हैं,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s45,वर्ष में कभी भी आप यहाँ जा सकते हैं ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",ओरछा,nmod,का,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='का'.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",का,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",वैभव,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",पत्थरों,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",जैसे,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",कैद,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",हो,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",गया,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",समय,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",यहाँ,obl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",ठहरा,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",हुआ,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",लगता,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",है,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",हम,nsubj:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",चले,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",जाते,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",हैं,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",बरसों,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",बरस,obl,पीछे,,no_decision,none,,No v1 rule applies for deprel='obl' with case_marker='पीछे'.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",पीछे,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",मध्यकाल,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",एक,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",शहर,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s46,"ओरछा का वैभव पत्थरों में जैसे कैद हो गया है, समय यहाँ ठहरा हुआ लगता है और हम चले जाते हैं बरसों बरस पीछे, मध्यकाल के एक शहर में.",.,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,जहाँ,nmod,के,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='के'.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,मंदिरों,nmod,की,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='की'.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,महलों,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,की,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,चमक,obj,को,R5,ambiguous,low-medium,Karma|Sampradāna,obj/iobj with को postposition — patient (Karma) or recipient (Sampradāna); cannot disambiguate in v1.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,समय,nmod,की,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='की'.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,की,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,धुंध,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,भी,dep,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,धुँधला,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,नहीं,advmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,सकी,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,है,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s47,जहाँ के मंदिरों और महलों की चमक को समय की धुंध भी धुँधला नहीं सकी है.,.,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,16,nmod,से,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='से'.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,से,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,17वीं,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,शताब्दी,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,बुंदेला,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,शासकों,nsubj:pass,द्वारा,,no_decision,none,,No v1 rule applies for deprel='nsubj:pass' with case_marker='द्वारा'.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,द्वारा,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,बनवाई,acl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,गई,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,ये,det,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,इमारतें,nsubj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,प्राचीन,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,वैभव,obj,को,R5,ambiguous,low-medium,Karma|Sampradāna,obj/iobj with को postposition — patient (Karma) or recipient (Sampradāna); cannot disambiguate in v1.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,को,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,बयाँ,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,करती,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,हैं,aux,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s48,16 से 17वीं शताब्दी में बुंदेला शासकों द्वारा बनवाई गई ये इमारतें प्राचीन वैभव को बयाँ करती हैं ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",ओरछा,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",",",punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",16वीं,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",शताब्दी,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",बुंदेला,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",राजपूत,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",रुद्र,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",प्रताप,nsubj:pass,के,,no_decision,none,,No v1 rule applies for deprel='nsubj:pass' with case_marker='के'.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",द्वारा,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",बसाया,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",गया,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",था,aux:pass,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s49,"ओरछा, 16वीं शताब्दी में बुंदेला राजपूत रुद्र प्रताप के द्वारा बसाया गया था ।",।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,उनके,nmod,आगे,,no_decision,none,,No v1 rule applies for deprel='nmod' with case_marker='आगे'.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,आगे,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,के,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,राजाओं,nsubj,ने,R1,confirmed,high,Kartā,nsubj with ने postposition — strong agent/subject evidence for Kartā.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,ने,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,शानदार,amod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,इमारतें,obj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,और,cc,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,भवन,conj,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,बनवाकर,advcl,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,इसकी,nmod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,शान,obl,में,R2,confirmed,medium-high,Adhikaraṇa,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,में,case,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,चार,nummod,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,चाँद,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,लगा,root,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,दिए,compound,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
+train-s50,उनके आगे के राजाओं ने शानदार इमारतें और भवन बनवाकर इसकी शान में चार चाँद लगा दिए ।,।,punct,,,no_decision,none,,No case marker provided; v1 rules require postposition evidence.
