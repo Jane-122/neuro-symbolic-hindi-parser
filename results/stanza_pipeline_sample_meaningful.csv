@@ -1,0 +1,12 @@
+sent_id,sentence_text,token_form,deprel,case_marker,mapper_candidates,mapper_confidence,mapper_status,verifier_candidates,verifier_decision,verifier_confidence,verifier_rule_id,final_candidates,final_decision,final_reason
+sample-s1,राम ने आम खाया।,राम,nsubj,ने,Kartā,low-medium,mapped,Kartā,confirmed,high,R1,Kartā,confirmed,nsubj with ने postposition — strong agent/subject evidence for Kartā.
+sample-s2,सीता कमरे में बैठी।,सीता,nsubj,,Kartā,low-medium,mapped,,no_decision,none,,Kartā,mapping_hypothesis,nsubj is a grammatical subject; it may correspond to Kartā but is not always a semantic agent.
+sample-s2,सीता कमरे में बैठी।,कमरे,obl,में,Adhikaraṇa|Apādāna|Karaṇa,low,context_dependent,Adhikaraṇa,confirmed,medium-high,R2,Adhikaraṇa,confirmed,obl with में postposition — locative/locus pattern for Adhikaraṇa.
+sample-s3,बच्चा मेज पर बैठा।,बच्चा,nsubj,,Kartā,low-medium,mapped,,no_decision,none,,Kartā,mapping_hypothesis,nsubj is a grammatical subject; it may correspond to Kartā but is not always a semantic agent.
+sample-s3,बच्चा मेज पर बैठा।,मेज,obl,पर,Adhikaraṇa|Apādāna|Karaṇa,low,context_dependent,Adhikaraṇa,confirmed,medium-high,R3,Adhikaraṇa,confirmed,obl with पर postposition — surface/location pattern for Adhikaraṇa.
+sample-s4,मोहन चाकू से फल काटता है।,मोहन,nsubj,,Kartā,low-medium,mapped,,no_decision,none,,Kartā,mapping_hypothesis,nsubj is a grammatical subject; it may correspond to Kartā but is not always a semantic agent.
+sample-s4,मोहन चाकू से फल काटता है।,चाकू,obl,से,Adhikaraṇa|Apādāna|Karaṇa,low,context_dependent,Karaṇa|Apādāna,ambiguous,low-medium,R4,Karaṇa|Apādāna,ambiguous,obl with से postposition — instrument (Karaṇa) or source (Apādāna); cannot disambiguate in v1.
+sample-s4,मोहन चाकू से फल काटता है।,फल,obj,,Karma,medium,mapped,,no_decision,none,,Karma,mapping_hypothesis,obj typically marks the direct object (patient) of the action.
+sample-s5,राम ने सीता को किताब दी।,राम,nsubj,ने,Kartā,low-medium,mapped,Kartā,confirmed,high,R1,Kartā,confirmed,nsubj with ने postposition — strong agent/subject evidence for Kartā.
+sample-s5,राम ने सीता को किताब दी।,सीता,iobj,को,Sampradāna,medium,mapped,Karma|Sampradāna,ambiguous,low-medium,R5,Karma|Sampradāna,ambiguous,obj/iobj with को postposition — patient (Karma) or recipient (Sampradāna); cannot disambiguate in v1.
+sample-s5,राम ने सीता को किताब दी।,किताब,obj,,Karma,medium,mapped,,no_decision,none,,Karma,mapping_hypothesis,obj typically marks the direct object (patient) of the action.

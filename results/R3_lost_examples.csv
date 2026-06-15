@@ -1,0 +1,8 @@
+sent_id,sentence_text,token_form,gold_deprel,stanza_deprel,gold_case_marker,stanza_case_marker,gold_verifier_rule_id,stanza_verifier_rule_id,gold_final_decision,stanza_final_decision,diagnosis
+dev-s1280,"दिल्ली में चांदी हाजिर, ९९९ टंच का दाम ९० रुपये उछलकर ११२२० रुपये प्रति किलो पर पहुंच गया ।",किलो,obl,conj,पर,पर,R3,,confirmed,no_decision,deprel changed obl to conj
+dev-s1521,"वहीं, मेट्रो और डबल डेकर बस पर हुए विस्फोटों में अलकायदा का हाथ सामने आने के बाद से मुस्लिमों के खिलाफ गुस्सा भड़क गया है ।",मेट्रो,obl,nmod,पर,,R3,,confirmed,no_decision,deprel changed obl to nmod; case marker changed पर to empty
+dev-s286,जनता दल (यूनाइटेड) के नेतृत्व वाली बिहार सरकार ने मंगलवार को सुप्रीम कोर्ट से कहा कि वह केंद्रीय मंत्री और राजद नेता मोहम्मद तस्लीमुद्दीन पर लगे हत्या के प्रयास के अभियोग को नहीं हटाना चाहती ।,तस्लीमुद्दीन,obl,conj,पर,पर,R3,,confirmed,no_decision,deprel changed obl to conj
+dev-s373,वहीं पर पशुओं के चारे व अन्य फसलों की बिजाई के लिए यह बारिश अति उत्तम मानी जा रही है ।,वहीं,obl,obl,पर,,R3,,confirmed,mapping_hypothesis,case marker changed पर to empty
+dev-s450,फैक्टरी की पहली मंजिल तथा दूसरी मंजिल पर फोम तथा अन्य हौज़री का सामान रखा था ।,मंजिल,obl,obl,पर,,R3,,confirmed,mapping_hypothesis,case marker changed पर to empty
+dev-s522,"यूपीए सरकार ने आठ फीसदी की विकास दर को बनाए रखने के लिए अपनी प्राथमिकताएं तय करते हुए इसे हासिल करने के लिए कृषि, शिक्षा, स्वास्थ्य व बुनियादी क्षेत्र पर विशेष घ्यान देने की बात कही है ।",कृषि,obl,obl,पर,,R3,,confirmed,mapping_hypothesis,case marker changed पर to empty
+dev-s588,वहीं पर सादे कपड़ों में मौजूद दिल्ली पुलिस ने इस कार पर धावा बोल दिया ।,वहीं,obl,obl,पर,,R3,,confirmed,mapping_hypothesis,case marker changed पर to empty

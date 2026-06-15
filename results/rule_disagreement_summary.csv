@@ -1,0 +1,11 @@
+category,count,percent_of_rule_disagreements,most_common_cause
+R1_lost,4,1.94,case marker changed ने to empty
+R1_gained,8,3.88,deprel changed conj to nsubj
+R2_lost,16,7.77,deprel changed obl to nmod
+R2_gained,33,16.02,deprel changed nmod to obl
+R3_lost,7,3.40,case marker changed पर to empty
+R3_gained,12,5.83,deprel changed nmod to obl
+R4_lost,29,14.08,deprel changed obl to nmod
+R4_gained,48,23.30,deprel changed obj to obl
+R5_lost,22,10.68,deprel changed iobj to nsubj
+R5_gained,27,13.11,deprel changed nsubj to obj
