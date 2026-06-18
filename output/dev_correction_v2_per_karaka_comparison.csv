@@ -1,0 +1,13 @@
+mode,karaka,support,neural_only_f1,verifier_v1_f1,correction_v2_1_f1,delta_correction_v2_1_minus_verifier_v1,delta_correction_v2_1_minus_neural_only
+candidate_set,Adhikarana,1567,0.8491,0.8881,0.9241,0.036,0.075
+candidate_set,Apadana,143,0.1337,0.3442,0.3442,0.0,0.2105
+candidate_set,Karana,53,0.0502,0.1484,0.1484,0.0,0.0982
+candidate_set,Karma,1682,0.6702,0.6484,0.6484,0.0,-0.0218
+candidate_set,Karta,2200,0.8869,0.8869,0.8869,0.0,0.0
+candidate_set,Sampradana,257,0.7692,0.5186,0.5186,0.0,-0.2506
+strict,Adhikarana,1567,0.0,0.7897,0.8335,0.0438,0.8335
+strict,Apadana,143,0.0,0.0,0.0,0.0,0.0
+strict,Karana,53,0.0,0.0,0.0,0.0,0.0
+strict,Karma,1682,0.6702,0.5252,0.5252,0.0,-0.145
+strict,Karta,2200,0.8869,0.8869,0.8869,0.0,0.0
+strict,Sampradana,257,0.7692,0.2902,0.2902,0.0,-0.479

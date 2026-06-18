@@ -1,0 +1,8 @@
+system,metric_scope,karaka,support,tp,fp,fn,precision,recall,f1,accuracy
+neural_only,overall,ALL,5902,4349,,,,,,0.7369
+neural_only,per_karaka,Karta,2200,1812,74,388,0.9608,0.8236,0.8869,
+neural_only,per_karaka,Karma,1682,900,104,782,0.8964,0.5351,0.6702,
+neural_only,per_karaka,Karana,53,39,1463,14,0.026,0.7358,0.0502,
+neural_only,per_karaka,Sampradana,257,185,39,72,0.8259,0.7198,0.7692,
+neural_only,per_karaka,Apadana,143,110,1392,33,0.0732,0.7692,0.1337,
+neural_only,per_karaka,Adhikarana,1567,1303,199,264,0.8675,0.8315,0.8491,

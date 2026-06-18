@@ -2,7 +2,7 @@
 
 ## Project Title
 
-Neuro-Symbolic Dependency Parsing for Hindi: Integrating Paninian Karaka Rules with Neural Parsers
+Neuro-Symbolic Karaka Extraction for Hindi from Neural Dependency Parses
 
 ---
 
@@ -14,7 +14,7 @@ Duration: Approximately 5–6 weeks
 
 Domain:
 - Natural Language Processing (NLP)
-- Dependency Parsing
+- Dependency Parsing as input evidence
 - Computational Linguistics
 - Neuro-Symbolic AI
 - Paninian Grammar
@@ -27,13 +27,13 @@ Modern neural dependency parsers perform well on many syntactic tasks but often 
 
 Paninian grammar provides a well-established framework of Karaka relations that capture semantic roles such as agent, object, instrument, recipient, source, and location.
 
-This project investigates whether simple symbolic Paninian rules can be used alongside neural dependency parsing outputs to improve interpretability and potentially improve Karaka-level predictions.
+This project investigates whether simple symbolic Paninian rules can be used alongside neural dependency parser outputs to improve **Karaka extraction and interpretation**. The project is not framed as direct improvement of UD dependency parsing.
 
 ---
 
 ## Research Question
 
-Can Paninian Karaka-based symbolic rules be used to verify or correct the outputs of a neural Hindi dependency parser?
+Can Paninian Karaka-based symbolic rules improve Karaka extraction from neural Hindi dependency parses?
 
 ---
 
@@ -41,7 +41,7 @@ Can Paninian Karaka-based symbolic rules be used to verify or correct the output
 
 This project should **not** become only a UD-to-Karaka mapping project.
 
-The main contribution is a **Paninian rule-based verifier and corrector** operating over UD dependency outputs. The verifier inspects syntactic analyses, applies symbolic evidence, and returns structured decisions, including cases where no confident Karaka assignment is possible.
+The main contribution is a **Paninian rule-based verifier and Karaka correction layer** operating over UD-style dependency outputs. The system inspects syntactic analyses, applies symbolic evidence, and returns structured Karaka decisions, including cases where no confident Karaka assignment is possible.
 
 The UD-to-Karaka mapping (`docs/ud_to_karaka_mapping_v1.md`) is a **starting hypothesis only**. It supplies default guesses for the verifier to test, confirm, correct, or reject. Mapping alone is not the research output.
 
@@ -53,9 +53,9 @@ Build a small neuro-symbolic pipeline that:
 
 1. Uses dependency parses from a Hindi UD-based parser or dataset.
 2. Applies a conservative UD-to-Karaka mapping as an initial hypothesis (not as final truth).
-3. Runs a Paninian rule-based verifier/corrector over those hypotheses.
+3. Runs a Paninian rule-based verifier/corrector over those Karaka hypotheses.
 4. Produces hybrid outputs with explicit verifier decisions (`confirmed`, `corrected`, `ambiguous`, `no_decision`).
-5. Evaluates where symbolic reasoning helps, where it fails, and where it correctly withholds judgment.
+5. Evaluates where symbolic reasoning helps Karaka extraction, where it fails, and where it correctly withholds judgment.
 
 ---
 
@@ -88,6 +88,23 @@ Rule definitions for Version 1 are in `docs/rule_specification_v1.md`.
 
 ---
 
+## Current Correction-Layer Framing
+
+Correction Layer v2.1 is frozen with only one accepted automatic correction rule:
+
+```python
+if deprel == "nmod" and case_marker in {"में", "पर"}:
+    corrected_candidates = "Adhikarana"
+```
+
+Rule ID: `H1_NMOD_LOCATIVE_ADHIKARANA`
+
+This is a Karaka interpretation correction, not a UD dependency parsing repair. A direct dependency-label repair experiment, DR1 (`nmod + में/पर -> obl`), reduced dev deprel accuracy from `95.16%` to `94.85%` and is therefore not accepted.
+
+The test split must remain frozen until final held-out evaluation.
+
+---
+
 ## Scope
 
 ### Included
@@ -95,19 +112,20 @@ Rule definitions for Version 1 are in `docs/rule_specification_v1.md`.
 - Universal Dependencies (UD)
 - Hindi-HDTB treebank
 - Conservative UD-to-Karaka mapping (as verifier input only)
-- Paninian rule-based verifier/corrector (main contribution)
+- Paninian rule-based verifier and Karaka correction layer (main contribution)
 - Hybrid neuro-symbolic pipeline with explicit decision types
 - Evaluation and error analysis
 
 ### Not Included
 
 - Building a dependency parser from scratch
+- Claiming direct improvement of UD dependency parsing
 - Training large language models
 - Training large transformer models
 - Creating a new annotation scheme
 - Full treebank conversion research
 
-The project focuses on verification and correction rather than parser construction.
+The project focuses on Karaka verification and correction rather than parser construction or dependency-tree repair.
 
 ---
 
@@ -189,7 +207,7 @@ Conservative UD → Karaka Mapping *(starting hypothesis)*
 
 ↓
 
-Paninian Rule-Based Verifier / Corrector
+Paninian Rule-Based Karaka Verifier / Corrector
 
 ↓
 
@@ -197,7 +215,7 @@ Verifier Decisions (`confirmed` / `corrected` / `ambiguous` / `no_decision`)
 
 ↓
 
-Hybrid Neuro-Symbolic Output
+Hybrid Neuro-Symbolic Karaka Output
 
 ↓
 

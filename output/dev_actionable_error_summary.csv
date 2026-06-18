@@ -1,0 +1,91 @@
+summary_type,pattern,count
+gold_karaka + deprel + case_marker,Adhikarana | nmod | में,80
+gold_karaka + deprel + case_marker,Karta | obj | (blank),53
+gold_karaka + deprel + case_marker,Karma | nsubj | (blank),50
+gold_karaka + deprel + case_marker,Adhikarana | nmod | (blank),27
+gold_karaka + deprel + case_marker,Karma | obl | से,25
+gold_karaka + deprel + case_marker,Karta | nmod | (blank),24
+gold_karaka + deprel + case_marker,Karma | iobj | को,24
+gold_karaka + deprel + case_marker,Adhikarana | nmod | पर,21
+gold_karaka + deprel + case_marker,Sampradana | obj | को,17
+gold_karaka + deprel + case_marker,Adhikarana | nmod | के,15
+gold_karaka + deprel + case_marker,Karta | nmod | के,14
+gold_karaka + deprel + case_marker,Apadana | nmod | से,12
+gold_karaka + deprel + case_marker,Sampradana | nsubj | को,10
+gold_karaka + deprel + case_marker,Karta | obj | को,8
+gold_karaka + deprel + case_marker,Sampradana | obj | से,8
+gold_karaka + deprel + case_marker,Adhikarana | root | में,7
+gold_karaka + deprel + case_marker,Adhikarana | obj | में,7
+gold_karaka + deprel + case_marker,Karma | obl | के,7
+gold_karaka + deprel + case_marker,Karma | nmod | (blank),6
+gold_karaka + deprel + case_marker,Sampradana | obj | (blank),6
+gold_karaka + deprel + case_marker,Karma | obl | (blank),5
+gold_karaka + deprel + case_marker,Karma | iobj | से,5
+gold_karaka + deprel + case_marker,Sampradana | nsubj | (blank),5
+gold_karaka + deprel + case_marker,Apadana | nmod | में,4
+gold_karaka + deprel + case_marker,Karta | nmod | की,4
+gold_karaka + deprel + case_marker,Karma | nmod | के,4
+gold_karaka + deprel + case_marker,Karma | nsubj | को,4
+gold_karaka + deprel + case_marker,Apadana | iobj | से,4
+gold_karaka + deprel + case_marker,Karta | obl | (blank),3
+gold_karaka + deprel + case_marker,Adhikarana | nmod | पास,3
+gold_karaka + mapper_candidates,Adhikarana | (blank),166
+gold_karaka + mapper_candidates,Karta | Karma,61
+gold_karaka + mapper_candidates,Karma | Kartā,54
+gold_karaka + mapper_candidates,Karta | (blank),45
+gold_karaka + mapper_candidates,Karma | Adhikaraṇa|Apādāna|Karaṇa,38
+gold_karaka + mapper_candidates,Karma | Sampradāna,32
+gold_karaka + mapper_candidates,Sampradana | Karma,31
+gold_karaka + mapper_candidates,Apadana | (blank),20
+gold_karaka + mapper_candidates,Karma | (blank),16
+gold_karaka + mapper_candidates,Sampradana | Kartā,15
+gold_karaka + mapper_candidates,Adhikarana | Karma,9
+gold_karaka + mapper_candidates,Sampradana | Adhikaraṇa|Apādāna|Karaṇa,7
+gold_karaka + mapper_candidates,Karana | (blank),5
+gold_karaka + mapper_candidates,Karta | Adhikaraṇa|Apādāna|Karaṇa,5
+gold_karaka + mapper_candidates,Sampradana | (blank),5
+gold_karaka + mapper_candidates,Apadana | Sampradāna,4
+gold_karaka + mapper_candidates,Adhikarana | Kartā,3
+gold_karaka + mapper_candidates,Karana | Sampradāna,2
+gold_karaka + mapper_candidates,Apadana | Karma,2
+gold_karaka + mapper_candidates,Karana | Kartā,2
+gold_karaka + mapper_candidates,Karta | Sampradāna,1
+gold_karaka + mapper_candidates,Karana | Karma,1
+deprel + case_marker + mapper_candidates,nmod | में | (blank),85
+deprel + case_marker + mapper_candidates,obj | (blank) | Karma,62
+deprel + case_marker + mapper_candidates,nmod | (blank) | (blank),58
+deprel + case_marker + mapper_candidates,nsubj | (blank) | Kartā,58
+deprel + case_marker + mapper_candidates,nmod | के | (blank),36
+deprel + case_marker + mapper_candidates,obl | से | Adhikaraṇa|Apādāna|Karaṇa,29
+deprel + case_marker + mapper_candidates,iobj | को | Sampradāna,25
+deprel + case_marker + mapper_candidates,obj | को | Karma,25
+deprel + case_marker + mapper_candidates,nmod | पर | (blank),21
+deprel + case_marker + mapper_candidates,nmod | से | (blank),18
+deprel + case_marker + mapper_candidates,nsubj | को | Kartā,14
+deprel + case_marker + mapper_candidates,iobj | से | Sampradāna,10
+deprel + case_marker + mapper_candidates,obj | से | Karma,10
+deprel + case_marker + mapper_candidates,obl | (blank) | Adhikaraṇa|Apādāna|Karaṇa,9
+deprel + case_marker + mapper_candidates,nmod | की | (blank),8
+deprel + case_marker + mapper_candidates,obl | के | Adhikaraṇa|Apādāna|Karaṇa,8
+deprel + case_marker + mapper_candidates,root | में | (blank),7
+deprel + case_marker + mapper_candidates,obj | में | Karma,7
+deprel + case_marker + mapper_candidates,iobj | (blank) | Sampradāna,4
+deprel + case_marker + mapper_candidates,nmod | का | (blank),3
+deprel + case_marker + mapper_candidates,nmod | पास | (blank),3
+deprel + case_marker + mapper_candidates,conj | को | (blank),3
+deprel + case_marker + mapper_candidates,conj | में | (blank),3
+deprel + case_marker + mapper_candidates,obl | को | Adhikaraṇa|Apādāna|Karaṇa,2
+deprel + case_marker + mapper_candidates,conj | पर | (blank),2
+deprel + case_marker + mapper_candidates,acl | से | (blank),2
+deprel + case_marker + mapper_candidates,root | से | (blank),2
+deprel + case_marker + mapper_candidates,root | पर | (blank),2
+deprel + case_marker + mapper_candidates,nsubj | द्वारा | Kartā,2
+deprel + case_marker + mapper_candidates,advmod | में | (blank),1
+final_candidates vs mapper_candidates,mapper=(blank) | final=(blank) | unchanged,257
+final_candidates vs mapper_candidates,mapper=Karma | final=Karma | unchanged,79
+final_candidates vs mapper_candidates,mapper=Kartā | final=Kartā | unchanged,74
+final_candidates vs mapper_candidates,mapper=Adhikaraṇa|Apādāna|Karaṇa | final=Karaṇa|Apādāna | changed_candidate_set,29
+final_candidates vs mapper_candidates,mapper=Sampradāna | final=Karma|Sampradāna | changed_candidate_set,25
+final_candidates vs mapper_candidates,mapper=Karma | final=Karma|Sampradāna | changed_candidate_set,25
+final_candidates vs mapper_candidates,mapper=Adhikaraṇa|Apādāna|Karaṇa | final=Adhikaraṇa|Apādāna|Karaṇa | unchanged,21
+final_candidates vs mapper_candidates,mapper=Sampradāna | final=Sampradāna | unchanged,14

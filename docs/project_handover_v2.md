@@ -1,6 +1,8 @@
 # Project Handover Document (Version 2)
 
-This document is a complete implementation handover for the neuro-symbolic Hindi parser project. It is intended for a new researcher or a new AI assistant that has no prior context.
+This document is a historical implementation handover for the neuro-symbolic Hindi project. It is still useful for understanding mapper v1, verifier v1, and the Stanza baseline, but it has been superseded by later HDTB alignment, gold Karaka extraction, and correction-layer work.
+
+For the current finalized framing, see `docs/project_status_checkpoint_3.md` and `docs/correction_layer_log.md`.
 
 Style note: This document avoids em dashes and double-hyphen stylistic breaks.
 
@@ -8,19 +10,21 @@ Style note: This document avoids em dashes and double-hyphen stylistic breaks.
 
 Project title:
 
-Neuro-Symbolic Dependency Parsing for Hindi: Integrating Paninian Karaka Rules with Neural Parsers
+Neuro-Symbolic Karaka Extraction for Hindi from Neural Dependency Parses
 
 Current objective:
 
-The project builds a small, reproducible neuro-symbolic pipeline for Hindi. The pipeline takes Universal Dependencies output, maps selected UD dependency labels to conservative Paninian Karaka hypotheses, applies symbolic verifier rules using postposition evidence, and records explicit decisions.
+The project builds a small, reproducible neuro-symbolic pipeline for Hindi. The pipeline takes neural UD-style dependency parses, maps selected dependency labels to conservative Paninian Karaka hypotheses, applies symbolic verifier rules using postposition evidence, and records explicit Karaka decisions.
+
+The current project is not framed as direct improvement of UD dependency parsing. The symbolic layer improves Karaka extraction and interpretation over neural dependency parses.
 
 The research question is:
 
-Can Paninian Karaka-based symbolic rules verify or help interpret the output of a Hindi dependency parser?
+Can Paninian Karaka-based symbolic rules improve Karaka extraction from neural Hindi dependency parses?
 
-The current work is focused on v1 baseline behavior and parser error analysis. It does not yet implement correction, verifier v2, or a full Karaka evaluation framework.
+The current work includes mapper v1, verifier v1, Stanza baselines, HDTB-derived gold Karaka labels, train/dev evaluation, and Correction Layer v2.1.
 
-The main contribution so far is not a broad UD-to-Karaka mapping. The main contribution is a symbolic verifier layer that examines UD parse structure and postposition evidence, then returns one of several transparent decision types.
+The main contribution so far is not a broad UD-to-Karaka mapping and not direct UD dependency repair. The main contribution is a symbolic verifier and Karaka correction layer that examines neural dependency parses and postposition evidence, then returns transparent Karaka decisions.
 
 Important scope decisions:
 
@@ -28,9 +32,10 @@ Important scope decisions:
 - Gold UD trees are used first to establish an upper baseline for parser-independent symbolic behavior.
 - Stanza parser output is now integrated as the neural parser baseline.
 - Verifier v1 and mapper v1 are frozen.
-- Correction logic has not been implemented.
+- Correction Layer v2.1 is implemented and frozen with only `H1_NMOD_LOCATIVE_ADHIKARANA`.
 - Verifier v2 has not been implemented.
-- Gold Paninian Karaka labels are not available in this repository.
+- Gold Paninian Karaka labels are available through HDTB alignment and extraction in `output/gold_karaka_labels.csv`.
+- A dependency-label repair experiment, DR1 (`nmod + में/पर -> obl`), was tested and rejected because it reduced dev deprel accuracy from `95.16%` to `94.85%`.
 
 ## 2. Dataset Being Used
 
@@ -54,12 +59,12 @@ Why this dataset is used:
 How each split has been used:
 
 - Train split: dataset exploration, postposition analysis, rule design, 50-sentence pilot runs.
-- Dev split: full gold UD baseline, full Stanza baseline, Gold vs Stanza comparison, rule disagreement analysis.
-- Test split: present in the repository, not yet evaluated.
+- Dev split: full gold UD baseline, full Stanza baseline, Gold vs Stanza comparison, rule disagreement analysis, Karaka evaluation, and correction-layer analysis.
+- Test split: aligned and gold labels extracted, but intentionally frozen for final held-out evaluation.
 
 Important limitation:
 
-The dataset does not provide gold Paninian Karaka labels in this project. All Karaka outputs are hypotheses or verifier-backed symbolic decisions, not gold labels.
+The project now derives core gold Karaka labels from aligned raw HDTB `.dat` files, but the mapped label set is partial. Current gold labels cover `k1`, `k2`, `k3`, `k4`, `k5`, `k7`, and `k7p`; other HDTB relation variants remain outside the main evaluation.
 
 ## 3. Current Repository Structure
 

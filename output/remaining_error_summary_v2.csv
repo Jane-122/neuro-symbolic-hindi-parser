@@ -1,0 +1,193 @@
+summary_type,label,count
+errors_by_gold_karaka,Karma,758
+errors_by_gold_karaka,Karta,388
+errors_by_gold_karaka,Adhikarana,180
+errors_by_gold_karaka,Sampradana,55
+errors_by_gold_karaka,Apadana,37
+errors_by_gold_karaka,Karana,14
+errors_by_deprel,mark,450
+errors_by_deprel,cc,208
+errors_by_deprel,compound,156
+errors_by_deprel,nmod,132
+errors_by_deprel,root,91
+errors_by_deprel,obj,87
+errors_by_deprel,nsubj,74
+errors_by_deprel,obl,71
+errors_by_deprel,conj,31
+errors_by_deprel,nsubj:pass,25
+errors_by_deprel,(blank),22
+errors_by_deprel,xcomp,17
+errors_by_deprel,iobj,15
+errors_by_deprel,det,12
+errors_by_deprel,acl,8
+errors_by_deprel,amod,8
+errors_by_deprel,advcl,7
+errors_by_deprel,case,5
+errors_by_deprel,acl:relcl,5
+errors_by_deprel,advmod,4
+errors_by_deprel,punct,1
+errors_by_deprel,cop,1
+errors_by_deprel,nummod,1
+errors_by_deprel,ccomp,1
+errors_by_case_marker,(blank),1198
+errors_by_case_marker,से,89
+errors_by_case_marker,के,51
+errors_by_case_marker,में,28
+errors_by_case_marker,को,28
+errors_by_case_marker,द्वारा,15
+errors_by_case_marker,की,9
+errors_by_case_marker,का,4
+errors_by_case_marker,पर,4
+errors_by_case_marker,पास,3
+errors_by_case_marker,तक,1
+errors_by_case_marker,दूर,1
+errors_by_case_marker,खिलाफ,1
+confusion_patterns,Karma -> NO_PREDICTION,658
+confusion_patterns,Karta -> NO_PREDICTION,320
+confusion_patterns,Adhikarana -> NO_PREDICTION,151
+confusion_patterns,Karma -> Karta,54
+confusion_patterns,Karta -> Karma,53
+confusion_patterns,Karma -> Apadana|Karana,25
+confusion_patterns,Apadana -> NO_PREDICTION,23
+confusion_patterns,Sampradana -> NO_PREDICTION,19
+confusion_patterns,Adhikarana -> Apadana|Karana,17
+confusion_patterns,Sampradana -> Karta,15
+confusion_patterns,Sampradana -> Karma,14
+confusion_patterns,Karma -> Adhikarana|Apadana|Karana,13
+confusion_patterns,Karana -> NO_PREDICTION,9
+confusion_patterns,Karta -> Karma|Sampradana,9
+confusion_patterns,Adhikarana -> Karma,9
+confusion_patterns,Apadana -> Adhikarana,8
+confusion_patterns,Karma -> Sampradana,8
+confusion_patterns,Karta -> Adhikarana|Apadana|Karana,4
+confusion_patterns,Apadana -> Sampradana,4
+confusion_patterns,Sampradana -> Adhikarana|Apadana|Karana,4
+confusion_patterns,Sampradana -> Apadana|Karana,3
+confusion_patterns,Adhikarana -> Karta,3
+confusion_patterns,Karana -> Sampradana,2
+confusion_patterns,Apadana -> Karma,2
+confusion_patterns,Karana -> Karta,2
+confusion_patterns,Karana -> Karma,1
+confusion_patterns,Karta -> Apadana|Karana,1
+confusion_patterns,Karta -> Adhikarana,1
+top_remaining_error_patterns,Karma | mark | (blank) | NO_PREDICTION,446
+top_remaining_error_patterns,Karma | compound | (blank) | NO_PREDICTION,112
+top_remaining_error_patterns,Karta | cc | (blank) | NO_PREDICTION,78
+top_remaining_error_patterns,Karta | root | (blank) | NO_PREDICTION,76
+top_remaining_error_patterns,Adhikarana | cc | (blank) | NO_PREDICTION,57
+top_remaining_error_patterns,Karta | obj | (blank) | Karma,53
+top_remaining_error_patterns,Karma | cc | (blank) | NO_PREDICTION,51
+top_remaining_error_patterns,Karma | nsubj | (blank) | Karta,50
+top_remaining_error_patterns,Karta | compound | (blank) | NO_PREDICTION,33
+top_remaining_error_patterns,Adhikarana | nmod | (blank) | NO_PREDICTION,27
+top_remaining_error_patterns,Karma | obl | से | Apadana|Karana,25
+top_remaining_error_patterns,Karta | nmod | (blank) | NO_PREDICTION,24
+top_remaining_error_patterns,Karta |  | (blank) | NO_PREDICTION,22
+top_remaining_error_patterns,Adhikarana | obl | से | Apadana|Karana,17
+top_remaining_error_patterns,Karta | conj | (blank) | NO_PREDICTION,17
+top_remaining_error_patterns,Adhikarana | nmod | के | NO_PREDICTION,15
+top_remaining_error_patterns,Sampradana | cc | (blank) | NO_PREDICTION,14
+top_remaining_error_patterns,Karta | nmod | के | NO_PREDICTION,14
+top_remaining_error_patterns,Karta | nsubj:pass | द्वारा | NO_PREDICTION,13
+top_remaining_error_patterns,Apadana | nmod | से | NO_PREDICTION,12
+top_remaining_error_patterns,Adhikarana | compound | (blank) | NO_PREDICTION,10
+top_remaining_error_patterns,Sampradana | nsubj | को | Karta,10
+top_remaining_error_patterns,Karta | xcomp | (blank) | NO_PREDICTION,9
+top_remaining_error_patterns,Karta | obj | को | Karma|Sampradana,8
+top_remaining_error_patterns,Sampradana | obj | से | Karma,8
+top_remaining_error_patterns,Karma | xcomp | (blank) | NO_PREDICTION,8
+top_remaining_error_patterns,Adhikarana | root | में | NO_PREDICTION,7
+top_remaining_error_patterns,Karta | det | (blank) | NO_PREDICTION,7
+top_remaining_error_patterns,Adhikarana | obj | में | Karma,7
+top_remaining_error_patterns,Karma | obl | के | Adhikarana|Apadana|Karana,7
+top_remaining_error_patterns,Karta | nsubj:pass | (blank) | NO_PREDICTION,6
+top_remaining_error_patterns,Apadana | cc | (blank) | NO_PREDICTION,6
+top_remaining_error_patterns,Karma | nmod | (blank) | NO_PREDICTION,6
+top_remaining_error_patterns,Sampradana | obj | (blank) | Karma,6
+top_remaining_error_patterns,Karma | nsubj:pass | (blank) | NO_PREDICTION,5
+top_remaining_error_patterns,Karma | obl | (blank) | Adhikarana|Apadana|Karana,5
+top_remaining_error_patterns,Karma | iobj | से | Sampradana,5
+top_remaining_error_patterns,Sampradana | nsubj | (blank) | Karta,5
+top_remaining_error_patterns,Karma | acl | (blank) | NO_PREDICTION,5
+top_remaining_error_patterns,Apadana | nmod | में | Adhikarana,4
+top_remaining_error_patterns,Apadana | obl | में | Adhikarana,4
+top_remaining_error_patterns,Karta | nmod | की | NO_PREDICTION,4
+top_remaining_error_patterns,Karma | advcl | (blank) | NO_PREDICTION,4
+top_remaining_error_patterns,Karma | nmod | के | NO_PREDICTION,4
+top_remaining_error_patterns,Karma | nsubj | को | Karta,4
+top_remaining_error_patterns,Apadana | iobj | से | Sampradana,4
+top_remaining_error_patterns,Karta | amod | (blank) | NO_PREDICTION,4
+top_remaining_error_patterns,Karta | acl:relcl | (blank) | NO_PREDICTION,4
+top_remaining_error_patterns,Adhikarana | root | के | NO_PREDICTION,3
+top_remaining_error_patterns,Karta | mark | (blank) | NO_PREDICTION,3
+top_remaining_error_patterns,Karta | obl | (blank) | Adhikarana|Apadana|Karana,3
+top_remaining_error_patterns,Adhikarana | nmod | पास | NO_PREDICTION,3
+top_remaining_error_patterns,Sampradana | obl | से | Apadana|Karana,3
+top_remaining_error_patterns,Adhikarana | nsubj | (blank) | Karta,3
+top_remaining_error_patterns,Karma | iobj | (blank) | Sampradana,3
+top_remaining_error_patterns,Adhikarana | conj | में | NO_PREDICTION,3
+top_remaining_error_patterns,Adhikarana | det | (blank) | NO_PREDICTION,3
+top_remaining_error_patterns,Karana | nmod | से | NO_PREDICTION,2
+top_remaining_error_patterns,Karta | nmod | से | NO_PREDICTION,2
+top_remaining_error_patterns,Adhikarana | case | (blank) | NO_PREDICTION,2
+top_remaining_error_patterns,Karana | cc | (blank) | NO_PREDICTION,2
+top_remaining_error_patterns,Karma | nmod | का | NO_PREDICTION,2
+top_remaining_error_patterns,Karma | det | (blank) | NO_PREDICTION,2
+top_remaining_error_patterns,Adhikarana | conj | पर | NO_PREDICTION,2
+top_remaining_error_patterns,Adhikarana | nmod | की | NO_PREDICTION,2
+top_remaining_error_patterns,Sampradana | conj | को | NO_PREDICTION,2
+top_remaining_error_patterns,Adhikarana | obj | (blank) | Karma,2
+top_remaining_error_patterns,Apadana | root | से | NO_PREDICTION,2
+top_remaining_error_patterns,Adhikarana | conj | के | NO_PREDICTION,2
+top_remaining_error_patterns,Sampradana | nmod | के | NO_PREDICTION,2
+top_remaining_error_patterns,Adhikarana | amod | (blank) | NO_PREDICTION,2
+top_remaining_error_patterns,Adhikarana | advmod | (blank) | NO_PREDICTION,2
+top_remaining_error_patterns,Karma | amod | (blank) | NO_PREDICTION,2
+top_remaining_error_patterns,Adhikarana | root | पर | NO_PREDICTION,2
+top_remaining_error_patterns,Karana | nsubj | द्वारा | Karta,2
+top_remaining_error_patterns,Karma | case | (blank) | NO_PREDICTION,2
+top_remaining_error_patterns,Karma | punct | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karana | nmod | के | NO_PREDICTION,1
+top_remaining_error_patterns,Karta | advcl | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karma | obl | को | Adhikarana|Apadana|Karana,1
+top_remaining_error_patterns,Adhikarana | advmod | में | NO_PREDICTION,1
+top_remaining_error_patterns,Karma | cop | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karma | nmod | से | NO_PREDICTION,1
+top_remaining_error_patterns,Adhikarana | acl | तक | NO_PREDICTION,1
+top_remaining_error_patterns,Karma | conj | से | NO_PREDICTION,1
+top_remaining_error_patterns,Apadana | acl | से | NO_PREDICTION,1
+top_remaining_error_patterns,Adhikarana | root | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karana | compound | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karana | iobj | से | Sampradana,1
+top_remaining_error_patterns,Adhikarana | conj | का | NO_PREDICTION,1
+top_remaining_error_patterns,Karana | acl | से | NO_PREDICTION,1
+top_remaining_error_patterns,Karta | nummod | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Apadana | obj | से | Karma,1
+top_remaining_error_patterns,Karta | iobj | को | Karma|Sampradana,1
+top_remaining_error_patterns,Sampradana | obl | को | Adhikarana|Apadana|Karana,1
+top_remaining_error_patterns,Adhikarana | acl:relcl | में | NO_PREDICTION,1
+top_remaining_error_patterns,Karana | nmod | का | NO_PREDICTION,1
+top_remaining_error_patterns,Karta | conj | के | NO_PREDICTION,1
+top_remaining_error_patterns,Apadana | advcl | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karta | obl | की | Adhikarana|Apadana|Karana,1
+top_remaining_error_patterns,Karta | advmod | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Adhikarana | nmod | दूर | NO_PREDICTION,1
+top_remaining_error_patterns,Apadana | nmod | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karma | ccomp | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Sampradana | nmod | की | NO_PREDICTION,1
+top_remaining_error_patterns,Sampradana | obl | के | Adhikarana|Apadana|Karana,1
+top_remaining_error_patterns,Karma | conj | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karana | obj | से | Karma,1
+top_remaining_error_patterns,Sampradana | obl | (blank) | Adhikarana|Apadana|Karana,1
+top_remaining_error_patterns,Adhikarana | nmod | से | NO_PREDICTION,1
+top_remaining_error_patterns,Karma | nsubj:pass | के | NO_PREDICTION,1
+top_remaining_error_patterns,Karma | conj | को | NO_PREDICTION,1
+top_remaining_error_patterns,Sampradana | obl | खिलाफ | Adhikarana|Apadana|Karana,1
+top_remaining_error_patterns,Karana | case | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karana | iobj | (blank) | Sampradana,1
+top_remaining_error_patterns,Adhikarana | mark | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karma | nmod | की | NO_PREDICTION,1
+top_remaining_error_patterns,Adhikarana | advcl | (blank) | NO_PREDICTION,1
+top_remaining_error_patterns,Karta | obl | से | Apadana|Karana,1
+top_remaining_error_patterns,Apadana | obj | (blank) | Karma,1
+top_remaining_error_patterns,Karta | nmod | में | Adhikarana,1

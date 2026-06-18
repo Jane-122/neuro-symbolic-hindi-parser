@@ -1,0 +1,66 @@
+summary_type,label,count
+errors_by_gold_karaka,Karma,782
+errors_by_gold_karaka,Karta,388
+errors_by_gold_karaka,Adhikarana,264
+errors_by_gold_karaka,Sampradana,72
+errors_by_gold_karaka,Apadana,33
+errors_by_gold_karaka,Karana,14
+errors_by_deprel,mark,450
+errors_by_deprel,nmod,233
+errors_by_deprel,cc,208
+errors_by_deprel,compound,156
+errors_by_deprel,obj,104
+errors_by_deprel,root,91
+errors_by_deprel,nsubj,74
+errors_by_deprel,obl,50
+errors_by_deprel,iobj,39
+errors_by_deprel,conj,31
+errors_by_deprel,nsubj:pass,25
+errors_by_deprel,(blank),22
+errors_by_deprel,xcomp,17
+errors_by_deprel,det,12
+errors_by_deprel,acl,8
+errors_by_deprel,amod,8
+errors_by_deprel,advcl,7
+errors_by_deprel,case,5
+errors_by_deprel,acl:relcl,5
+errors_by_deprel,advmod,4
+errors_by_deprel,punct,1
+errors_by_deprel,cop,1
+errors_by_deprel,nummod,1
+errors_by_deprel,ccomp,1
+errors_by_case_marker,(blank),1198
+errors_by_case_marker,में,104
+errors_by_case_marker,से,72
+errors_by_case_marker,को,69
+errors_by_case_marker,के,51
+errors_by_case_marker,पर,25
+errors_by_case_marker,द्वारा,15
+errors_by_case_marker,की,9
+errors_by_case_marker,का,4
+errors_by_case_marker,पास,3
+errors_by_case_marker,तक,1
+errors_by_case_marker,दूर,1
+errors_by_case_marker,खिलाफ,1
+common_confusion_pairs,Karma -> NO_PREDICTION,658
+common_confusion_pairs,Karta -> NO_PREDICTION,321
+common_confusion_pairs,Adhikarana -> NO_PREDICTION,252
+common_confusion_pairs,Karta -> Karma,61
+common_confusion_pairs,Karma -> Karta,54
+common_confusion_pairs,Karma -> Adhikarana|Apadana|Karana,38
+common_confusion_pairs,Karma -> Sampradana,32
+common_confusion_pairs,Sampradana -> Karma,31
+common_confusion_pairs,Apadana -> NO_PREDICTION,27
+common_confusion_pairs,Sampradana -> NO_PREDICTION,19
+common_confusion_pairs,Sampradana -> Karta,15
+common_confusion_pairs,Karana -> NO_PREDICTION,9
+common_confusion_pairs,Adhikarana -> Karma,9
+common_confusion_pairs,Sampradana -> Adhikarana|Apadana|Karana,7
+common_confusion_pairs,Karta -> Adhikarana|Apadana|Karana,5
+common_confusion_pairs,Apadana -> Sampradana,4
+common_confusion_pairs,Adhikarana -> Karta,3
+common_confusion_pairs,Karana -> Sampradana,2
+common_confusion_pairs,Apadana -> Karma,2
+common_confusion_pairs,Karana -> Karta,2
+common_confusion_pairs,Karta -> Sampradana,1
+common_confusion_pairs,Karana -> Karma,1

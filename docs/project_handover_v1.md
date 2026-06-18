@@ -1,5 +1,7 @@
 # Project Handover Document (Version 1)
 
+**Status note:** This is a historical handover. The current finalized framing is **Neuro-Symbolic Karaka Extraction for Hindi from Neural Dependency Parses**, not direct improvement of UD dependency parsing. For the current state, use `docs/project_status_checkpoint_3.md`, `docs/correction_layer_log.md`, and `docs/project_context.md`.
+
 **Document purpose:** Complete implementation handover for the neuro-symbolic Hindi parser research project. A new collaborator or AI assistant should be able to continue work from this document alone.
 
 **Last updated:** June 2026  
@@ -12,7 +14,7 @@
 
 ### 1.1 Full Project Title
 
-**Neuro-Symbolic Dependency Parsing for Hindi: Integrating Paninian Karaka Rules with Neural Parsers**
+**Neuro-Symbolic Karaka Extraction for Hindi from Neural Dependency Parses**
 
 ### 1.2 Research Objective
 

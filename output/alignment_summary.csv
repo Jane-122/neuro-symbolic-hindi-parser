@@ -1,0 +1,4 @@
+ud_split,hdtb_split,ud_sentences,hdtb_sentences,matched,duplicates,unmatched,match_percentage
+train,Training,13306,14089,10199,20,3087,76.65
+dev,Development,1659,1743,1286,6,367,77.52
+test,Testing,1684,1804,1318,2,364,78.27

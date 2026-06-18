@@ -1,0 +1,4 @@
+ud_split,hdtb_split,ud_sentences,hdtb_sentences,exact_match,high_confidence_match_95,high_confidence_match_98
+train,Training,13306,14089,13302,13303,13302
+dev,Development,1659,1743,1659,1659,1659
+test,Testing,1684,1804,1684,1684,1684

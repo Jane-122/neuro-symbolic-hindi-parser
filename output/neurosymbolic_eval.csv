@@ -1,0 +1,8 @@
+system,metric_scope,karaka,support,tp,fp,fn,precision,recall,f1,accuracy
+neurosymbolic,overall,ALL,5902,4369,,,,,,0.7403
+neurosymbolic,per_karaka,Karta,2200,1812,74,388,0.9608,0.8236,0.8869,
+neurosymbolic,per_karaka,Karma,1682,924,244,758,0.7911,0.5493,0.6484,
+neurosymbolic,per_karaka,Karana,53,39,434,14,0.0825,0.7358,0.1484,
+neurosymbolic,per_karaka,Sampradana,257,202,320,55,0.387,0.786,0.5186,
+neurosymbolic,per_karaka,Apadana,143,106,367,37,0.2241,0.7413,0.3442,
+neurosymbolic,per_karaka,Adhikarana,1567,1286,43,281,0.9676,0.8207,0.8881,

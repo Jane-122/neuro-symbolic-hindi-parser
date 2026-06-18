@@ -1,0 +1,101 @@
+sent_id,sentence_text,token_form,gold_karaka,deprel,case_marker,final_candidates,corrected_candidates,diagnostic_flag
+dev-s1,रामायण काल में भगवान राम के पुत्र कुश की राजधानी कुशावती को 483 ईसा पूर्व बुद्ध ने अपने अंतिम विश्राम के लिए चुना ।,कुशावती,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s13,"यह मंदिर उसी स्‍थान पर बनाया गया है, जहाँ से यह मूर्ति निकाली गई थी ।",मंदिर,Karta,obj,,Karma,Karma,possible_passive_karta
+dev-s13,"यह मंदिर उसी स्‍थान पर बनाया गया है, जहाँ से यह मूर्ति निकाली गई थी ।",मूर्ति,Karta,obj,,Karma,Karma,possible_passive_karta
+dev-s26,मूर्ति भगवान बुद्ध के बोधि प्राप्‍त करने से पूर्व की ध्‍यान मुद्रा में है ।,बोधि,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s29,इन सभी स्‍थानों पर इन भस्‍मों और अस्‍थियों के ऊपर स्‍तूप बनाए गए ।,स्‍तूप,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s31,करीब 50 फुट ऊँचे इस स्‍तूप को मुकुट बंधन विहार कहा जाता है ।,स्‍तूप,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s32,हालाँकि स्‍थानीय वाशिंदों में यह रामाभार स्‍तूप के नाम से ही आज भी जाना जाता है ।,यह,Karta,obj,,Karma,Karma,possible_passive_karta
+dev-s44,मंदिर के शीर्ष पर सोने की परत लगाई गई है ।,परत,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s52,मंदिर के शीर्ष पर सोने की परत लगाई गई है ।,परत,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s53,पौधों का विशेष आकार भी पर्यटकों को अपनी ओर खींचता है ।,पर्यटकों,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s55,लोग बरबस इस सोने की परत चढ़े चैत्‍य के साथ फोटो खींचना चाहते हैं ।,परत,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s55,लोग बरबस इस सोने की परत चढ़े चैत्‍य के साथ फोटो खींचना चाहते हैं ।,फोटो,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s55,लोग बरबस इस सोने की परत चढ़े चैत्‍य के साथ फोटो खींचना चाहते हैं ।,खींचना,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s62,इसमें कछुओं और बतख के साथ ही मछलियों को अठखेलियाँ करते देखना बहुत अच्‍छा लगता है ।,मछलियों,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s83,"प्रागैतिहासिक काल से ऋषि - मुनियों और साधक, परिव्राजकों को यह आकर्षित करता आ रहा है ।",यह,Karta,obj,,Karma,Karma,possible_passive_karta
+dev-s89,इसके पश्चात केदारनाथ का हिमनद और उससे निकलने वाली मंदाकिनी अपने में असंख्य पाषाण खंडों को फोड़कर निकले झरनों और फव्वारों के जल को समेटे उद्दाम गति से प्रवाहित होती दिखाई देती है ।,खंडों,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s89,इसके पश्चात केदारनाथ का हिमनद और उससे निकलने वाली मंदाकिनी अपने में असंख्य पाषाण खंडों को फोड़कर निकले झरनों और फव्वारों के जल को समेटे उद्दाम गति से प्रवाहित होती दिखाई देती है ।,जल,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s90,"इन सबके ऊपर केदारनाथ का 6 हजार 940 मीटर ऊँचा हिमशिखर ऐसा दिखाई देता है, मानो स्वर्ग में रहने वाले देवताओं का मृत्युलोक को झाँकने का यह झरोखा हो ।",मृत्युलोक,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s92,"यह उत्तराखंड का सबसे विशाल शिव मंदिर है, जो कटवाँ पत्थरों के विशाल शिलाखंडों को जोड़कर बनाया गया है ।",शिलाखंडों,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s107,यहाँ महात्मा गाँधी की अस्थि विसर्जन किए जाने से इसे गाँधी स्मारक भी कहते हैं ।,इसे,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s114,उन्होंने मुशर्रफ पर एजेंडा बदलने और पीछे हटने का आरोप भी लगाया ।,एजेंडा,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s117,उन्होंने यह भी कहा कि तब तत्कालीन भारतीय प्रधानमंत्री अटल बिहारी वाजपेयी ने खुद अपनी मर्जी से लाहौर की यात्रा की थी और लाहौर घोषणा पर हस्ताक्षर हुआ था ।,यह,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s121,अब तो मुशर्रफ एक बयान देते हैं और अगले दिन उस पर पलट जाते हैं ।,बयान,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s123,शरीफ का यह भी कहना है कि पाकिस्तान के परमाणु वैज्ञानिकों के खिलाफ मुकदमा चलाया जाना गलत है ।,यह,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s123,शरीफ का यह भी कहना है कि पाकिस्तान के परमाणु वैज्ञानिकों के खिलाफ मुकदमा चलाया जाना गलत है ।,मुकदमा,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s127,"उन्होंने कहा कि मुशर्रफ की सरकार ने तब सौदेबाजी करने की कोशिश की थी, लेकिन उन्होंने इससे इनकार कर दिया था ।",इससे,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s132,"परमाचार्य के दिसंबर १९९३ में मुक्ति प्राप्त करने के बाद से हर वर्ष आराधना समारोह आयोजित किया जाता है, जिसमें बड़ी संख्या में श्रद्धालु हिस्सा लेते हैं ।",मुक्ति,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s132,"परमाचार्य के दिसंबर १९९३ में मुक्ति प्राप्त करने के बाद से हर वर्ष आराधना समारोह आयोजित किया जाता है, जिसमें बड़ी संख्या में श्रद्धालु हिस्सा लेते हैं ।",समारोह,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s133,"हालांकि इस बार जयेंद्र सरस्वती की गैरमौजूदगी मौके पर मौजूद विशिष्ट व्यक्तियों के बीच चर्चा का विषय जरूर रही, लेकिन देश भर से आने वाले श्रद्धालुओं की संख्या में कोई कमी नहीं देखी गई ।",कमी,Karta,obj,,Karma,Karma,possible_passive_karta
+dev-s134,समारोह के दौरान कनिष्ठ आचार्य विजयेंद्र सरस्वती ने यज्ञ और भजन के बाद पूर्ण आहुति देने के बाद स्वर्ण कलश ग्रहण किया ।,कलश,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s135,मौके पर मौजूद कर्नाटक के एक मठ पीठाधिपति के स्वर्णाहल्ली स्वामी ने आदिस्थानम को अपनी श्रद्धांजलि अर्पित की ।,श्रद्धांजलि,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s138,इससे वह एक वाणिज्यिक उपक्रम होने के नाते बजट पर अधिक निर्भर न रहकर अपने संसाधन खुद जुटा सकेगा ।,संसाधन,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s140,एक व्यापारिक उपक्रम होने के कारण सबसे पहले रेलवे को अपनी योजना के वित्त का भी प्रबंध करना चाहिए और परियोजनाओं को आंतरिक स्रोतों से पूरा करना चाहिए ।,परियोजनाओं,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s144,इस योजना की ७० फीसदी रकम पहले तीन सालों में ही उपलब्ध कराई जा चुकी है ।,रकम,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s146,"अपने तर्क के समर्थन में उन्होंने योजना आयोग के नजरिए का उल्लेख करते हुए कहा कि ट्रैकों की लंबाई, वृहद क्षेत्रफल और भारी आबादी को देखते हुए चीन और भारत की रेल प्रणाली में खासी समानताएं हैं ।",समानताएं,Karta,obj,,Karma,Karma,possible_passive_karta
+dev-s154,बजट का प्रावधान केवल उन क्षेत्रों तक ही सीमित होना चाहिए जो कि वाणिज्यिक संस्थान प्रायोजित नहीं करना चाहता ।,संस्थान,Karta,obj,,Karma,Karma,possible_passive_karta
+dev-s154,बजट का प्रावधान केवल उन क्षेत्रों तक ही सीमित होना चाहिए जो कि वाणिज्यिक संस्थान प्रायोजित नहीं करना चाहता ।,करना,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s155,खुफिया ब्यूरो के निदेशक पद की दौड़ में शामिल वरिष्ठ अधिकारी एन. सी. पाधी को सचिव (सुरक्षा) नियुक्त किया गया है ।,पाधी,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s157,नियुक्तियों को लेकर मंत्रिमंडल समिति ने ३१ मई को सुधीर कुमार के रिटायर होने के बाद सचिव (सुरक्षा) पद पर पाधी की नियुक्ति को मंजूरी दे दी है ।,नियुक्तियों,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s161,"केंद्र सरकार कार्यपालिका, न्यायपालिका और विधायिका के तीनों अंगों को लोकपाल के दायरे में लाने पर विचार कर रही है ।",अंगों,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s164,सरकार ने इसके विभिन्न पहलुओं पर विचार के लिए समिति गठित की है ।,समिति,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s165,लोकपाल को सक्षम पुलिस व सीबीआई जैसी एजेंसी का समर्थन दिए जाने के प्रयास भी किए जा रहे हैं ।,समर्थन,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s166,"कानून व न्याय मंत्री हंसराज भारद्वाज के मुताबिक सरकार कार्यपालिका, न्यायपालिका और विधायिका को लोकपाल के जरिए ज्यादा कार्यक्षम व बेदाग बनाना चाहती है ।",बनाना,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s167,जेएमएम प्रकरण के बाद संसद सदस्यों व निर्वाचित प्रतिनिधियों को लोक सेवक करार दिया जा चुका है और उनसे उसी किस्म की ईमानदारी की उम्मीद की जाती है ।,सेवक,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s169,अब जनता में यह महसूस किया जाने लगा है कि न्यायाधीशों के मामले में भी जांच व दंड का प्रावधान होना चाहिए ।,यह,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s170,जब उनसे पूछा गया कि लोकपाल के दायरे में न्यायपालिका को लाने के मुद्दे पर क्या भारत के प्रधान न्यायाधीश से राय ली जाएगी?,न्यायपालिका,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s171,उन्होंने कहा कि मंत्रियों की समिति न्यायाधीश की राय नहीं लेगी और स्वतंत्र रूप से अपने सुझाव देगी ।,राय,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s171,उन्होंने कहा कि मंत्रियों की समिति न्यायाधीश की राय नहीं लेगी और स्वतंत्र रूप से अपने सुझाव देगी ।,सुझाव,Karta,obj,,Karma,Karma,possible_passive_karta
+dev-s176,डॉ. मनमोहन सिंह ने तो प्रधानमंत्री को लोकपाल के दायरे में लाने का कई बार समर्थन किया है ।,प्रधानमंत्री,Karma,obj,को,Karma|Sampradāna,Karma|Sampradāna,possible_passive_karta
+dev-s180,इसलिए सरकार ने तय किया है कि इस बारे में सभी के लिए समान कानून लाया जाए ।,कानून,Karma,obj,,Karma,Karma,possible_passive_karta
+dev-s1,रामायण काल में भगवान राम के पुत्र कुश की राजधानी कुशावती को 483 ईसा पूर्व बुद्ध ने अपने अंतिम विश्राम के लिए चुना ।,बुद्ध,Karta,nsubj,ने,Kartā,Kartā,possible_passive_karma
+dev-s2,मल्‍लों की राजधानी होने के कारण प्राचीनकाल में इस स्‍थान का अत्‍यंत महत्‍व था ।,राजधानी,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s2,मल्‍लों की राजधानी होने के कारण प्राचीनकाल में इस स्‍थान का अत्‍यंत महत्‍व था ।,महत्‍व,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s5,कुशीनगर का सबसे ज्‍यादा महत्‍व बौद्ध तीर्थ के रूप में है ।,महत्‍व,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s6,"1876 में यह स्‍थान एक बार फिर प्रकाश में आया, जब तत्‍कालीन पुरातत्‍ववेत्‍ता लॉर्ड कर्निंघम ने महापरिनिर्वाण मूर्ति की खोज की ।",स्‍थान,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s6,"1876 में यह स्‍थान एक बार फिर प्रकाश में आया, जब तत्‍कालीन पुरातत्‍ववेत्‍ता लॉर्ड कर्निंघम ने महापरिनिर्वाण मूर्ति की खोज की ।",कर्निंघम,Karta,nsubj,ने,Kartā,Kartā,possible_passive_karma
+dev-s8,कुशीनगर की सीमा में प्रवेश करते ही भव्‍य प्रवेशद्वार आपका स्वागत करता है ।,प्रवेशद्वार,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s9,इसके बाद आम तौर पर पर्यटकों की निगाह महापरिनिर्वाण मंदिर की ओर पड़ती है ।,निगाह,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s10,कुशीनगर का महत्‍व महापरिनिर्वाण मंदिर से है ।,महत्‍व,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s11,इस मंदिर का स्‍थापत्‍य अजंता की गुफाओं से प्रेरित है ।,स्‍थापत्‍य,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s12,मंदिर के डाट हूबहू अजंता की गुफाओं के डाट की तरह हैं ।,डाट,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s16,मूर्ति भी अजंता के भगवान बुद्ध की महापरिनिर्वाण मूर्ति की प्रतिकृति है ।,मूर्ति,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s17,वैसे मूर्ति का काल अजंता से पूर्व का है ।,काल,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s18,इस मंदिर के आसपास कई विहार (जहाँ बौद्ध भिक्षु रहा करते थे) और चैत्‍य (जहाँ भिक्षु पूजा करते थे या ध्‍यान लगाते थे) भग्‍नावशेष और खंडहर मौजूद हैं जो अशोककालीन बताए जाते हैं ।,भिक्षु,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s19,"मंदिर परिसर से लगा काफी बड़ा सा पार्क है, जहाँ पर्यटकों का जमावड़ा लगा रहता है ।",जमावड़ा,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s22,इसके स्‍थानीय लोगों में भगवान विष्‍णु के अवतार होने की मान्‍यता भी प्रचलित है ।,मान्‍यता,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s23,इस मूर्ति के भी करीब पाँच सौ वर्ष पुराना होने का प्रमाण मिलता है ।,मूर्ति,Karta,nsubj,के,Kartā,Kartā,possible_passive_karma
+dev-s23,इस मूर्ति के भी करीब पाँच सौ वर्ष पुराना होने का प्रमाण मिलता है ।,प्रमाण,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s24,माथा कुँवर की मूर्ति काले पत्‍थर से बनी है ।,मूर्ति,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s25,इसकी ऊँचाई करीब तीन मीटर है ।,ऊँचाई,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s26,मूर्ति भगवान बुद्ध के बोधि प्राप्‍त करने से पूर्व की ध्‍यान मुद्रा में है ।,मूर्ति,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s27,यहाँ बुद्ध चिरनिद्रा में हैं -,बुद्ध,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s30,कुशीनगर में मौजूद रामाभार का स्‍तूप इन्‍हीं में से एक है ।,स्‍तूप,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s35,मंदिर सुबह 10 से शाम 4 बजे तक दर्शनार्थियों के लिए खुला रहता है ।,मंदिर,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s40,इसके साथ ही मथुरा और गांधार शैली की दुर्लभ मूर्तियाँ भी यहाँ देखने को मिलेंगी ।,मूर्तियाँ,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s42,मंदिर का वास्‍तु थाईलैंड के मंदिरों जैसा ही है ।,वास्‍तु,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s43,इसकी संरक्षिका थाईलैंड की राजकुमारी हैं ।,संरक्षिका,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s46,वर्तमान में सबसे आकर्षण का केंद्र यहाँ पर हाल ही में निर्मित वाट थाई मंदिर है ।,केंद्र,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s50,मंदिर का वास्‍तु थाईलैंड के मंदिरों जैसा ही है ।,वास्‍तु,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s51,इसकी संरक्षिका थाईलैंड की राजकुमारी हैं ।,संरक्षिका,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s53,पौधों का विशेष आकार भी पर्यटकों को अपनी ओर खींचता है ।,आकार,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s54,मंदिर परिसर में मौजूद चैत्‍य सभी के आकर्षण का केंद्र बन जाता है ।,चैत्‍य,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s55,लोग बरबस इस सोने की परत चढ़े चैत्‍य के साथ फोटो खींचना चाहते हैं ।,लोग,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s57,मंदिर में भगवान बुद्ध की मूर्ति अपने पूरे स्‍वरूप में चीनी लगती है ।,मूर्ति,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s58,इसकी दीवारों पर जातक कथाओं से संबंधित पेंटिंग अत्‍यंत ही आकर्षक है ।,पेंटिंग,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s62,इसमें कछुओं और बतख के साथ ही मछलियों को अठखेलियाँ करते देखना बहुत अच्‍छा लगता है ।,देखना,Karma,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s63,ठीक सामने मौजूद पगोडा के ऊपर बँधी घंटियाँ सुरम्‍य और शांत वातावरण में जब बजती हैं तो लगता है कि ये सभी दिशाओं में अहिंसा और प्रेम का संदेश दे रहीं हों ।,घंटियाँ,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s63,ठीक सामने मौजूद पगोडा के ऊपर बँधी घंटियाँ सुरम्‍य और शांत वातावरण में जब बजती हैं तो लगता है कि ये सभी दिशाओं में अहिंसा और प्रेम का संदेश दे रहीं हों ।,ये,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s64,जलमंदिर के सामने भगवान शिव को समर्पित बिरला मंदिर मौजूद है ।,मंदिर,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s68,कुशीनगर गोरखपुर से 52 किलोमीटर की दूरी पर नेशनल हाईवे नं 28 पर स्‍थित है ।,कुशीनगर,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s70,गोरखपुर से हर घंटे कुशीनगर (कसया) के लिए बसें मिलती रहती हैं ।,बसें,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s71,गोरखपुर से देश के लगभग सभी प्रमुख शहरों के लिए ट्रेन की सुविधा उपलब्‍ध है ।,सुविधा,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s72,"इसके साथ ही गोरखपुर से दिल्‍ली, मुंबई और कोलकाता के लिए हवाई सुविधा भी उपलब्‍ध है ।",सुविधा,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s75,कुशीनगर में सैलानियों के ठहरने के लिए हर श्रेणी के आरामदायक होटल मौजूद हैं ।,सैलानियों,Karta,nsubj,के,Kartā,Kartā,possible_passive_karma
+dev-s75,कुशीनगर में सैलानियों के ठहरने के लिए हर श्रेणी के आरामदायक होटल मौजूद हैं ।,होटल,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s77,इनमें से पथिक निवास उत्तरप्रदेश पर्यटन विकास निगम की ओर से संचालित होता है ।,निवास,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s78,वहीं धर्मशालाओं में भी साल भर भीड़ रहती है ।,भीड़,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s82,युग - युगांतर से उत्तराखंड भारतीयों के लिए आध्यात्मिक शरणस्थल और शांति प्रदाता रहा है ।,उत्तराखंड,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s84,हिमालय प्रकृति का महामंदिर है ।,हिमालय,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
+dev-s85,यहाँ केदारनाथ तीर्थ उत्तराखंड का महत्वपूर्ण स्थल है ।,तीर्थ,Karta,nsubj,,Kartā,Kartā,possible_passive_karma
