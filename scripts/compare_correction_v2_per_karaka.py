@@ -2,17 +2,17 @@
 Compare per-karaka F1 across neural-only, verifier v1, and correction v2.
 """
 
+import argparse
 import csv
 from pathlib import Path
 
 
-INPUT_PATH = Path("output/dev_correction_v2_metrics.csv")
-OUTPUT_PATH = Path("output/dev_correction_v2_per_karaka_comparison.csv")
+SPLITS = {"train", "dev", "test"}
 
 SYSTEMS = [
     "neural_only",
     "verifier_v1",
-    "correction_v2",
+    "correction_v2.1",
 ]
 
 MODES = [
@@ -26,9 +26,9 @@ OUTPUT_FIELDS = [
     "support",
     "neural_only_f1",
     "verifier_v1_f1",
-    "correction_v2_f1",
-    "delta_correction_v2_minus_verifier_v1",
-    "delta_correction_v2_minus_neural_only",
+    "correction_v2_1_f1",
+    "delta_correction_v2_1_minus_verifier_v1",
+    "delta_correction_v2_1_minus_neural_only",
 ]
 
 
@@ -77,7 +77,7 @@ def build_comparison_rows(rows):
         for karaka in karakas:
             neural = index[(mode, karaka, "neural_only")]
             verifier = index[(mode, karaka, "verifier_v1")]
-            correction = index[(mode, karaka, "correction_v2")]
+            correction = index[(mode, karaka, "correction_v2.1")]
 
             neural_f1 = to_float(neural["f1"])
             verifier_f1 = to_float(verifier["f1"])
@@ -89,12 +89,12 @@ def build_comparison_rows(rows):
                 "support": correction["support"],
                 "neural_only_f1": neural_f1,
                 "verifier_v1_f1": verifier_f1,
-                "correction_v2_f1": correction_f1,
-                "delta_correction_v2_minus_verifier_v1": round(
+                "correction_v2_1_f1": correction_f1,
+                "delta_correction_v2_1_minus_verifier_v1": round(
                     correction_f1 - verifier_f1,
                     4,
                 ),
-                "delta_correction_v2_minus_neural_only": round(
+                "delta_correction_v2_1_minus_neural_only": round(
                     correction_f1 - neural_f1,
                     4,
                 ),
@@ -121,19 +121,37 @@ def print_table(rows):
                 f"{row['karaka']:<15} {row['support']:>8} "
                 f"{row['neural_only_f1']:>10.4f} "
                 f"{row['verifier_v1_f1']:>10.4f} "
-                f"{row['correction_v2_f1']:>10.4f} "
-                f"{row['delta_correction_v2_minus_verifier_v1']:>10.4f} "
-                f"{row['delta_correction_v2_minus_neural_only']:>13.4f}"
+                f"{row['correction_v2_1_f1']:>10.4f} "
+                f"{row['delta_correction_v2_1_minus_verifier_v1']:>10.4f} "
+                f"{row['delta_correction_v2_1_minus_neural_only']:>13.4f}"
             )
 
 
+def parse_args():
+    """Parse CLI arguments."""
+    parser = argparse.ArgumentParser(
+        description="Compare per-karaka F1 for one split.",
+    )
+    parser.add_argument(
+        "--split",
+        choices=sorted(SPLITS),
+        default="dev",
+        help="Dataset split to compare, default: dev.",
+    )
+    return parser.parse_args()
+
+
 def main():
-    rows = load_csv(INPUT_PATH)
+    args = parse_args()
+    input_path = Path(f"output/{args.split}_correction_v2_metrics.csv")
+    output_path = Path(f"output/{args.split}_correction_v2_per_karaka_comparison.csv")
+
+    rows = load_csv(input_path)
     comparison_rows = build_comparison_rows(rows)
-    write_csv(OUTPUT_PATH, comparison_rows, OUTPUT_FIELDS)
+    write_csv(output_path, comparison_rows, OUTPUT_FIELDS)
     print_table(comparison_rows)
     print()
-    print(f"Saved per-karaka comparison to: {OUTPUT_PATH}")
+    print(f"Saved per-karaka comparison to: {output_path}")
 
 
 if __name__ == "__main__":
