@@ -10,7 +10,11 @@ from collections import Counter
 from pathlib import Path
 
 PIPELINE_DIR = Path(__file__).resolve().parent
+SRC_ROOT = PIPELINE_DIR.parent
+sys.path.insert(0, str(SRC_ROOT))
 sys.path.insert(0, str(PIPELINE_DIR))
+
+from paths import STANZA_GOLD_UD
 
 from run_gold_ud_pipeline import (
     load_conllu,
@@ -62,7 +66,6 @@ def print_dev_summary(rows, num_sentences):
 def main():
     project_root = Path(__file__).resolve().parent.parent.parent
     data_path = project_root / "data" / "raw" / "hi_hdtb-ud-dev.conllu"
-    results_dir = project_root / "results"
 
     sentences = load_conllu(data_path)
     print(f"Loaded {len(sentences)} sentences from {data_path.name}")
@@ -72,8 +75,8 @@ def main():
         row for row in all_rows if row["final_decision"] != "no_decision"
     ]
 
-    all_csv = results_dir / "dev_baseline_all.csv"
-    meaningful_csv = results_dir / "dev_baseline_meaningful.csv"
+    all_csv = STANZA_GOLD_UD / "dev_baseline_all.csv"
+    meaningful_csv = STANZA_GOLD_UD / "dev_baseline_meaningful.csv"
 
     write_csv(all_rows, all_csv)
     write_csv(meaningful_rows, meaningful_csv)

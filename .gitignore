@@ -219,11 +219,20 @@ __marimo__/
 .streamlit/secrets.toml
 
 .venv/
-results/stanza_train_baseline_all.csv
-results/stanza_train_corrected_v2_all.csv
-results/*_all.csv
-results/*_corrected_v2_all.csv
+experiments/stanza/baseline/stanza_train_baseline_all.csv
+experiments/stanza/corrected/stanza_train_corrected_v2_all.csv
+experiments/stanza/baseline/*_all.csv
+experiments/stanza/corrected/*_corrected_v2_all.csv
 data/raw/news_articles_and_heritage/
 
 # Stanza downloaded models (local cache)
 .stanza/
+
+# UDPipe downloaded models (local cache)
+models/udpipe/*.udpipe
+
+# UDPipe generated pipeline outputs
+experiments/udpipe/baseline/*_all.csv
+experiments/udpipe/corrected/*_corrected_v2_all.csv
+
+experiments/udpipe/baseline/*_meaningful.csv

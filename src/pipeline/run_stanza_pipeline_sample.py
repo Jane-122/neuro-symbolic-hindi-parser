@@ -11,10 +11,13 @@ from pathlib import Path
 SRC_ROOT = Path(__file__).resolve().parent.parent
 PIPELINE_DIR = SRC_ROOT / "pipeline"
 
+sys.path.insert(0, str(SRC_ROOT))
 sys.path.insert(0, str(SRC_ROOT / "mapper"))
 sys.path.insert(0, str(SRC_ROOT / "verifier"))
 sys.path.insert(0, str(SRC_ROOT / "parser"))
 sys.path.insert(0, str(PIPELINE_DIR))
+
+from paths import STANZA_BASELINE
 
 from run_gold_ud_pipeline import (
     combine_results,
@@ -116,9 +119,6 @@ def print_summary(rows):
 
 
 def main():
-    project_root = Path(__file__).resolve().parent.parent.parent
-    results_dir = project_root / "results"
-
     all_rows = []
     for sent_id, sentence_text in SAMPLE_SENTENCES:
         print(f"Parsing {sent_id}: {sentence_text}")
@@ -128,8 +128,8 @@ def main():
         row for row in all_rows if row["final_decision"] != "no_decision"
     ]
 
-    all_csv = results_dir / "stanza_pipeline_sample_all.csv"
-    meaningful_csv = results_dir / "stanza_pipeline_sample_meaningful.csv"
+    all_csv = STANZA_BASELINE / "stanza_pipeline_sample_all.csv"
+    meaningful_csv = STANZA_BASELINE / "stanza_pipeline_sample_meaningful.csv"
 
     write_csv(all_rows, all_csv)
     write_csv(meaningful_rows, meaningful_csv)

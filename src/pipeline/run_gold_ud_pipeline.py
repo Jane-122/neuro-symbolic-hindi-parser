@@ -11,8 +11,11 @@ from collections import Counter
 from pathlib import Path
 
 SRC_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(SRC_ROOT))
 sys.path.insert(0, str(SRC_ROOT / "mapper"))
 sys.path.insert(0, str(SRC_ROOT / "verifier"))
+
+from paths import STANZA_GOLD_UD
 
 from simple_mapper import map_ud_to_karaka
 from simple_verifier import verify_token
@@ -237,7 +240,6 @@ def print_summary(rows):
 def main():
     project_root = Path(__file__).resolve().parent.parent.parent
     data_path = project_root / "data" / "raw" / "hi_hdtb-ud-train.conllu"
-    results_dir = project_root / "results"
 
     sentences = load_conllu(data_path, max_sentences=MAX_SENTENCES)
     print(f"Loaded {len(sentences)} sentences from {data_path.name}")
@@ -247,8 +249,8 @@ def main():
         row for row in all_rows if row["final_decision"] != "no_decision"
     ]
 
-    all_csv = results_dir / "gold_ud_pipeline_all.csv"
-    meaningful_csv = results_dir / "gold_ud_pipeline_meaningful.csv"
+    all_csv = STANZA_GOLD_UD / "gold_ud_pipeline_all.csv"
+    meaningful_csv = STANZA_GOLD_UD / "gold_ud_pipeline_meaningful.csv"
 
     write_csv(all_rows, all_csv)
     write_csv(meaningful_rows, meaningful_csv)

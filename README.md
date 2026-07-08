@@ -48,18 +48,24 @@ Passive correction rules and dependency repair (DR1) were investigated but are *
 ## Project Structure
 
 ```
-data/raw/       # UD CoNLL-U splits (HDTB raw .dat files are local-only, gitignored)
-src/
-  parser/       # Stanza wrapper
-  mapper/       # Mapper v1
-  verifier/     # Verifier v1
-  pipeline/     # Baseline runners and correction layer
-scripts/        # Alignment, extraction, evaluation, error analysis
-output/         # Metrics, gold labels, alignment artifacts (small CSVs)
-docs/           # Final results and project reference
-notebooks/      # Exploratory analysis
-results/        # Large pipeline CSVs (gitignored)
+data/raw/              # UD CoNLL-U splits (HDTB raw .dat files are local-only, gitignored)
+src/                   # Mapper, verifier, parser, pipeline, paths
+scripts/
+  data_prep/           # Alignment, gold extraction, HDTB inspection
+  evaluation/          # Correction apply/evaluate, gold comparison
+  analysis/            # Error analysis and diagnostics
+  experiments/         # Rejected or exploratory experiments (e.g. DR1)
+  legacy/              # Split-specific wrappers superseded by --split scripts
+experiments/
+  stanza/              # Stanza pipeline CSVs (baseline, corrected, comparisons, gold_ud)
+  udpipe/              # Placeholder for UDPipe parser experiment
+outputs/               # Metrics, gold labels, alignment artifacts (small CSVs)
+docs/                  # Final results, methodology, paper assets, archive
+notebooks/             # Exploration and analysis notebooks
+logs/                  # Runtime logs (empty by default)
 ```
+
+Path constants live in `src/paths.py`. See `MIGRATION_LOG.md` for the full old → new mapping.
 
 ## Reproducing Evaluation
 
@@ -68,20 +74,21 @@ pip install -r requirements.txt
 python -m stanza.download hi tokenize pos lemma depparse
 
 python src/pipeline/run_stanza_baseline.py --split test
-python scripts/apply_correction_v2.py --split test
-python scripts/evaluate_correction_v2.py --split test
+python scripts/evaluation/apply_correction_v2.py --split test
+python scripts/evaluation/evaluate_correction_v2.py --split test
+python scripts/evaluation/compare_correction_v2_per_karaka.py --split test
 ```
 
-Use `train` or `dev` instead of `test` for non-held-out splits. Large baseline outputs are written locally under `results/` and are not tracked in git.
+Use `train` or `dev` instead of `test` for non-held-out splits. Large baseline outputs are written locally under `experiments/stanza/` and are not tracked in git.
 
 ## Documentation
 
-- [Final Test Results](docs/final_test_results.md)
-- [Final Train/Dev Results](docs/final_train_dev_results.md)
-- [Final Project Reference](docs/final_project_reference.md)
-- [Paper Implementation Audit](docs/paper_implementation_audit.md)
-- [Correction Layer Log](docs/correction_layer_log.md)
-- [Project Context](docs/project_context.md)
+- [Final Test Results](docs/final/final_test_results.md)
+- [Final Train/Dev Results](docs/final/final_train_dev_results.md)
+- [Final Project Reference](docs/final/final_project_reference.md)
+- [Paper Implementation Audit](docs/paper/paper_implementation_audit.md)
+- [Correction Layer Log](docs/final/correction_layer_log.md)
+- [Project Context](docs/methodology/project_context.md)
 
 ## Setup
 

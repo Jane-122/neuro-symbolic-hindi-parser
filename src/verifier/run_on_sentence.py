@@ -9,7 +9,10 @@ import sys
 from pathlib import Path
 
 # Import sibling module when run as a script from project root or this folder.
+SRC_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(SRC_ROOT))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import STANZA_GOLD_UD
 from simple_verifier import verify_token
 
 
@@ -176,7 +179,7 @@ def main():
         output_lines.append("=" * 60)
 
     # Save UTF-8 copy for easy viewing/copy-paste if the terminal font struggles.
-    output_path = Path(__file__).resolve().parent.parent.parent / "results" / "run_on_sentence_output.txt"
+    output_path = STANZA_GOLD_UD / "run_on_sentence_output.txt"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text("\n".join(output_lines) + "\n", encoding="utf-8")
     print(f"\nSaved UTF-8 output to: {output_path}")

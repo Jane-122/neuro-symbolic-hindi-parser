@@ -12,7 +12,10 @@ from pathlib import Path
 SRC_ROOT = Path(__file__).resolve().parent.parent
 PIPELINE_DIR = SRC_ROOT / "pipeline"
 
+sys.path.insert(0, str(SRC_ROOT))
 sys.path.insert(0, str(PIPELINE_DIR))
+
+from paths import STANZA_BASELINE, stanza_baseline_all, stanza_baseline_meaningful
 
 from run_gold_ud_pipeline import setup_utf8_output, write_csv
 from run_stanza_pipeline_sample import process_stanza_sentence
@@ -84,7 +87,6 @@ def print_summary(rows, total_sentences):
 def main():
     project_root = Path(__file__).resolve().parent.parent.parent
     data_path = project_root / "data" / "raw" / "hi_hdtb-ud-dev.conllu"
-    results_dir = project_root / "results"
 
     sentence_items = load_conllu_sentence_texts(data_path, max_sentences=MAX_SENTENCES)
     print(f"Loaded {len(sentence_items)} dev sentences from {data_path.name}")
@@ -100,8 +102,8 @@ def main():
         row for row in all_rows if row["final_decision"] != "no_decision"
     ]
 
-    all_csv = results_dir / "stanza_dev_baseline_all.csv"
-    meaningful_csv = results_dir / "stanza_dev_baseline_meaningful.csv"
+    all_csv = stanza_baseline_all("dev")
+    meaningful_csv = stanza_baseline_meaningful("dev")
 
     write_csv(all_rows, all_csv)
     write_csv(meaningful_rows, meaningful_csv)

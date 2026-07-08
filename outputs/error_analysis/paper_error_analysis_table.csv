@@ -1,0 +1,8 @@
+Error Category,Representative Pattern,Stanza Count,UDPipe Count,Interpretation
+Unmapped dependency relations,"Karma + mark; compound/cc/root and similar structural deps → no prediction",818,800,The frozen mapper does not assign Karaka labels for several frequent UD relations under the current rule set.
+Karma–Sampradana disambiguation,obj/iobj + को → multi-candidate (strict fail),480,450,The dative case marker को co-occurs with both Karma and Sampradana contexts and does not alone support strict single-label resolution.
+Karana–Apadana disambiguation,obl/nmod + से → multi-candidate (strict fail),171,166,Instrument and source readings with से remain ambiguous without additional verb-semantic or contextual cues.
+Residual Adhikarana ambiguity,"Adhikarana + obl/nmod without locative marker, or with के → multi-candidate / no prediction",290,284,Many Adhikarana errors lack the locative evidence targeted by the H1 correction rule.
+Karta recall gaps,Karta gold → no prediction (diverse deprels),278,373,Subject-like tokens often receive empty or non-unique candidate sets; UDPipe shows a higher rate on this subset.
+Parser-induced label mismatch,candidate_wrong (e.g. Karma nsubj → Karta),303,404,Hard label conflicts are relatively infrequent but more common with UDPipe than Stanza under the same frozen stack.
+Gold–parser alignment,unmatched_gold (token alignment),22,22,A small parser-independent subset of gold tokens could not be aligned to pipeline rows.
